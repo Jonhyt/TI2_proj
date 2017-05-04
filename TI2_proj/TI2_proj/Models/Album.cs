@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Web;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace TI2_proj.Models
 {
@@ -17,7 +14,11 @@ namespace TI2_proj.Models
 
         [Required]
         public Artista Autor { get; set; }
+        [ForeignKey("Autor")]
+        public int AutorFK { get; set; }
 
         public Editora Edit { get; set; }
+        [ForeignKey("Edit")]
+        public int EditFK { get; set; }
     }
 }

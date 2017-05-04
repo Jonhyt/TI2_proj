@@ -127,8 +127,14 @@
     </Compile>
     <Compile Include="Models\Album.cs" />
     <Compile Include="Models\Artista.cs" />
+    <Compile Include="Models\ArtistaMusica.cs" />
     <Compile Include="Models\Bandas.cs" />
+    <Compile Include="Models\CompositorMusica.cs" />
     <Compile Include="Models\Editora.cs" />
+    <Compile Include="Models\Genero.cs" />
+    <Compile Include="Models\Mood.cs" />
+    <Compile Include="Models\MusicaGenero.cs" />
+    <Compile Include="Models\MusicaMood.cs" />
     <Compile Include="Models\Musicas.cs" />
     <Compile Include="Models\MusicasDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
