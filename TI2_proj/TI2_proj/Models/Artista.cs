@@ -9,6 +9,9 @@ namespace TI2_proj.Models
 
         [Required]
         [StringLength(30)]
-        public int nome { get; set; }
+        public string nome { get; set; }
+
+        [Required]
+        public bool banda { get; set; }
     }
 }

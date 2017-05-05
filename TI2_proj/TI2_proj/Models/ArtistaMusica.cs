@@ -9,13 +9,14 @@ namespace TI2_proj.Models
 {
     public class ArtistaMusica
     {
-        [Key]
+        
         public Musicas Musica { get; set; }
+        [Key, Column(Order = 0)]
         [ForeignKey("Musica")]
         public int MusicaFK { get; set; }
 
-        [Key]
         public Artista Artista { get; set; }
+        [Key, Column(Order = 1)]
         [ForeignKey("Artista")]
         public int ArtistaFK { get; set; }
     }

@@ -10,7 +10,7 @@ namespace TI2_proj.Models
 
         [Required]
         [StringLength(30)]
-        public int Titulo { get; set; }
+        public string Titulo { get; set; }
 
         [Required]
         public Artista Autor { get; set; }

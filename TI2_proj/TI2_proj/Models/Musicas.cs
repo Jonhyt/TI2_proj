@@ -21,9 +21,14 @@ namespace TI2_proj.Models
         [Key]
         public int MusicaID { get; set; }
 
+        [Required]
+        [StringLength(30)]
         public string Titulo { get; set; }
 
+        [Required]
         public int Duracao { get; set; }
+
+        public int NumFaixa { get; set; }
 
         public Album Album { get; set; }
         [ForeignKey("Album")]

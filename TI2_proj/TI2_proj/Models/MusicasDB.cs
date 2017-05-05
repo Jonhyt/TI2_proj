@@ -18,7 +18,7 @@ namespace TI2_proj.Models
         public virtual DbSet<MusicaMood> MusicaMood { get; set; }
         public virtual DbSet<Musicas> Musicas { get; set; }
         
-        public MusicasDB : base("LocalizacaoDaBD") { }
+        public MusicasDB() : base("LocalizacaoDaBD") { }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
