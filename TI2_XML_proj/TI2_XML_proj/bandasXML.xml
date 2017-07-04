@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<bandas titulo="Informação sobre a discografia de Bastille">
+	<apres numAluno="19432" nomeAluno="João Pinto" foto="eu.jpg">
+		<par>
+			This small app has the objective to depict basic information about the band known as "Bastille", along with it's members, albuns and songs, released in an official
+			 manner. It may not include some off records projects and non comercially released songs.
+		</par>
+		<par>
+			It was designed the the student João Pinto, number 19432, for the TI2 class' final project.
+		</par>
+	</apres>
+	<banda nome="Bastille" imagem="bastilleImg.jpg">
+		<links>
+			<link site="Wikipedia" logo="wikipediaLogo.jpg" url="https://en.wikipedia.org/wiki/Bastille_(band)"/>
+			<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/user/BastilleVEVO"/>
+			<link site="Bastille Site" logo="bastilleSite.jpg" url="http://www.bastillebastille.com/"/>
+		</links>
+		<membros>
+			<membro nome="Dan Smith" foto="bastille_danSmith.jpg" anoEntrada="2010" anoSaida="N/A">
+				<funcao>lead vocals</funcao>
+				<funcao>piano</funcao>
+				<funcao>keyboards</funcao>
+			</membro>
+			<membro nome="Chris «Woody» Wood" foto="bastille_woody.jpg" dataEntrada="2010" dataSaida="N/A">
+				<funcao>drums</funcao>
+				<funcao>percussion</funcao>
+				<funcao>backing vocals</funcao>
+			</membro>
+			<membro nome="Kyle Simmons" foto="bastille_kyleSimmons.jpg" dataEntrada="2010" dataSaida="N/A">
+				<funcao>piano</funcao>
+				<funcao>keyboards</funcao>
+				<funcao>backing vocals</funcao>
+				<funcao>bass</funcao>
+				<funcao>guitar</funcao>
+			</membro>
+			<membro nome="Will Farquarson" foto="bastille_willFarquarson.jpg" dataEntrada="2010" dataSaida="N/A">
+				<funcao>piano</funcao>
+				<funcao>keyboards</funcao>
+				<funcao>backing vocals</funcao>
+				<funcao>bass</funcao>
+				<funcao>guitar</funcao>
+			</membro>
+		</membros>
+		<discografia>
+			<album titulo="Bad Blood" imagem="bastille_badBlood.jpg" ano="2013">
+				<links>
+					<link site="Amazon" logo="amazonLogo.jpg" url="https://www.amazon.com/Bad-Blood-Bastille/dp/B00DV3A84G/ref=sr_1_1?s=music&ie=UTF8&qid=1495451801&sr=1-1&keywords=bad+blood+bastille" />
+					<link site="iTunes" logo="iTunes.jpg" url="https://itunes.apple.com/us/album/bad-blood/id672945248" />
+				</links>
+				<faixas>
+					<faixa titulo="Pompei" duracao="214">
+						<links>
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=F90Cw4l-8NY" />
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0sooJd5WbNnnz5k6yO7FIQ" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						</letra>
+							<quadra>
+								<verso>I was left to my own devices</verso>
+								<verso>Many days fell away with nothing to show</verso>
+							</quadra>
+							<quadra>
+								<verso>And the walls kept tumbling down</verso>
+								<verso>In the city that we love</verso>
+								<verso>Grey clouds roll over the hills</verso>
+								<verso>Bringing darkness from above</verso>
+							</quadra>
+							<quadra>
+								<verso>But if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>Nothing changed at all?</verso>
+								<verso>And if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>You've been here before?</verso>
+							</quadra>
+							<quadra>
+								<verso>But if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>Nothing changed at all?</verso>
+								<verso>And if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>You've been here before?</verso>
+							</quadra>
+							<quadra>
+								<verso>Nothing changed at all</verso>
+								<verso>Nothing changed at all</verso>
+							</quadra>
+							<quadra>
+								<verso>We were caught up and lost in all of our vices</verso>
+								<verso>In your pose as the dust settled around us</verso>
+							</quadra>
+							<quadra>
+								<verso>And the walls kept tumbling down</verso>
+								<verso>In the city that we love</verso>
+								<verso>Grey clouds roll over the hills</verso>
+								<verso>Bringing darkness from above</verso>
+							</quadra>
+							<quadra>
+								<verso>But if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>Nothing changed at all?</verso>
+								<verso>And if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>You've been here before?</verso>
+							</quadra>
+							<quadra>
+								<verso>Nothing changed at all</verso>
+								<verso>Nothing changed at all</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh where do we begin?</verso>
+								<verso>The rubble or our sins?</verso>
+								<verso>Oh where do we begin?</verso>
+								<verso>The rubble or our sins?</verso>
+							</quadra>
+							<quadra>
+								<verso>But if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>Nothing changed at all?</verso>
+								<verso>And if you close your eyes</verso>
+								<verso>Does it almost feel like</verso>
+								<verso>You've been here before?</verso>
+							</quadra>
+							<quadra>
+								<verso>Nothing changed at all</verso>
+								<verso>Nothing changed at all</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Things We Lost in the Fire" duracao="241">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/4NX4HZphj4vu36lRtd1COh" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=MGR4U7W1dZU" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Things we lost to the flame</verso>
+								<verso>Things we'll never see again</verso>
+								<verso>All that we've amassed</verso>
+								<verso>Sits before us, shattered into ash</verso>
+							</quadra>
+							<quadra>
+								<verso>These are the things, the things we lost</verso>
+								<verso>The things we lost in the fire, fire, fire</verso>
+								<verso>These are the things, the things we lost</verso>
+								<verso>The things we lost in the fire, fire, fire</verso>
+							</quadra>
+							<quadra>
+								<verso>We sat and made a list</verso>
+								<verso>Of all the things that we have</verso>
+								<verso>Down the backs of table tops</verso>
+								<verso>Ticket stubs and your diaries I read them all one day</verso>
+							</quadra>
+							<quadra>
+								<verso>When loneliness came and you were away</verso>
+								<verso>Oh they told me nothing new,</verso>
+								<verso>But I love to read the words you used</verso>
+								<verso>These are the things, the things we lost</verso>
+							</quadra>
+							<quadra>
+								<verso>The things we lost in the fire, fire, fire</verso>
+								<verso>These are the things, the things we lost</verso>
+								<verso>The things we lost in the fire, fire, fire</verso>
+							</quadra>
+							<quadra>
+								<verso>I was the match and you were the rock</verso>
+								<verso>Maybe we started this fire</verso>
+								<verso>We sat apart and watched</verso>
+								<verso>All we had burned on the pyre</verso>
+							</quadra>
+							<quadra>
+								<verso>we were born with nothing</verso>
+								<verso>And we sure as hell have nothing now</verso>
+								<verso>(You said) we were born with nothing</verso>
+								<verso>And we sure as hell have nothing now</verso>
+							</quadra>
+							<quadra>
+								<verso>These are the things, the things we lost</verso>
+								<verso>The things we lost in the fire, fire, fire</verso>
+								<verso>These are the things, the things we lost</verso>
+								<verso>The things we lost in the fire, fire, fire</verso>
+							</quadra>
+							<quadra>
+								<verso>Do you understand that we will never be the same again</verso>
+								<verso>Do you understand that we will never be the same again</verso>
+								<verso>The future's in our hands and we will never be the same again</verso>
+								<verso>The future's in our hands and we will never be the same again</verso>
+							</quadra>
+							<quadra>
+								<verso>These are the things, the things we lost</verso>
+								<verso>The things we lost in the fire, fire, fire</verso>
+								<verso>These are the things, the things we lost</verso>
+								<verso>The things we lost in the fire, fire, fire</verso>
+							</quadra>
+							<quadra>
+								<verso>These are the things, the things we lost</verso>
+								<verso>These are the things we lost in the fire fire fire</verso>
+							</quadra>
+							<quadra>
+								<verso>Flames they licked the walls</verso>
+								<verso>Tenderly they turned to dust all that I adore</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Bad Blood" duracao="212">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0uGQhIfv5CiXToqBVcdmie" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=qoNYlV07Cf8" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+							<genero>Reggae Fusion</genero>
+						</generos>
+						<letra>
+							<verso> We were young and drinking in the park </verso>
+							<verso> There was nowhere else to go </verso>
+							<verso> And you said you always had my back </verso>
+							<verso> Oh but how were we to know? </verso>
+							<verso> </verso>
+							<verso> That these are the days that bind you together, forever </verso>
+							<verso> And these little things define you forever, forever </verso>
+							<verso> </verso>
+							<verso> All this bad blood here </verso>
+							<verso> Won’t you let it dry? </verso>
+							<verso> It’s been cold for years </verso>
+							<verso> Won’t you let it lie? </verso>
+							<verso> </verso>
+							<verso> If we’re only ever looking back </verso>
+							<verso> We will drive ourselves insane </verso>
+							<verso> As the friendship goes resentment grows </verso>
+							<verso> We will walk our different ways </verso>
+							<verso> </verso>
+							<verso> But those are the days that bind us together, forever </verso>
+							<verso> And those little things define us forever, forever </verso>
+							<verso> </verso>
+							<verso> All this bad blood here </verso>
+							<verso> Won’t you let it dry? </verso>
+							<verso> It’s been cold for years </verso>
+							<verso> Won’t you let it lie? </verso>
+							<verso> </verso>
+							<verso> And I don’t wanna hear about the bad blood anymore </verso>
+							<verso> I don’t wanna hear you talk about it anymore </verso>
+							<verso> I don’t wanna hear about the bad blood anymore </verso>
+							<verso> I don’t wanna hear you talk about it anymore </verso>
+							<verso> </verso>
+							<verso> All this bad blood here </verso>
+							<verso> Won’t you let it dry? </verso>
+							<verso> It’s been cold for years </verso>
+							<verso> Won’t you let it lie? </verso>
+							</letra>
+					</faixa>
+					<faixa titulo="Overjoyed" duracao="206">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/6UMtNccUesjuOnNelwUHFV" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=fK3fVJtFTh0" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Oh I feel overjoyed</verso>
+								<verso>When you listen to my words</verso>
+								<verso>I see them sinking in</verso>
+								<verso>Oh I see them crawling underneath your skin</verso>
+							</quadra>
+							<quadra>
+								<verso>Words are all we have</verso>
+								<verso>We'll be talking</verso>
+								<verso>We'll be talking</verso>
+								<verso>These words are all we have</verso>
+								<verso>We'll be talking</verso>
+							</quadra>
+							<quadra>
+								<verso>And I hear you calling in the dead of night</verso>
+								<verso>Oh I hear you calling in the dead of night</verso>
+							</quadra>
+							<quadra>
+								<verso>You lean towards despair</verso>
+								<verso>Any given opportunity you're there</verso>
+								<verso>But what is there to gain?</verso>
+								<verso>When you're always falling off the fence that way.</verso>
+							</quadra>
+							<quadra>
+								<verso>Words are all we have</verso>
+								<verso>We'll be talking</verso>
+								<verso>We'll be talking</verso>
+								<verso>These words are all we have</verso>
+								<verso>We'll be talking</verso>
+							</quadra>
+							<quadra>
+								<verso>And I hear you calling in the dead of night</verso>
+								<verso>Oh I hear you calling in the dead of night</verso>
+								<verso>Oh I hear you calling in the dead of night</verso>
+								<verso>Oh I hear you calling in the dead of night</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh</verso>
+								<verso>Ooh</verso>
+								<verso>Ooh</verso>
+								<verso>Ooh</verso>
+							</quadra>
+							<quadra>
+								<verso>And I hear you calling in the dead of night</verso>
+								<verso>Oh I hear you calling in the dead of night</verso>
+								<verso>Oh I hear you calling in the dead of night</verso>
+								<verso>Oh I hear you calling in the dead of night</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh I feel overjoyed</verso>
+								<verso>When you listen to my words</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="These Streets" duracao="175">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/4AEWFbQ8yq7VjubzkLOtBL" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=zEratQ9p7nM" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>These streets are yours, you can keep them</verso>
+								<verso>I don't want them</verso>
+								<verso>They pull me back, and I surrender</verso>
+								<verso>To the memories I run from</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh, we have paved these streets</verso>
+								<verso>With moments of defeat</verso>
+							</quadra>
+							<quadra>
+								<verso>But even if we won't admit it to ourselves</verso>
+								<verso>We'll walk upon these streets and think of little else</verso>
+								<verso>So I won't show my face here anymore</verso>
+								<verso>I won't show my face here anymore</verso>
+							</quadra>
+							<quadra>
+								<verso>These streets are yours, you can keep them</verso>
+								<verso>In my mind it's like you haunt them</verso>
+								<verso>And passing through I think I see you</verso>
+								<verso>In the shapes of other women</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh, we have stained these walls</verso>
+								<verso>With our mistakes and flaws</verso>
+							</quadra>
+							<quadra>
+								<verso>But even if we won't admit it to ourselves</verso>
+								<verso>We'll walk upon these streets and think of little else</verso>
+								<verso>So I won't show my face here anymore</verso>
+								<verso>I won't show my face here anymore</verso>
+							</quadra>
+							<quadra>
+								<verso>All that's left behind</verso>
+								<verso>Is a shadow on my mind</verso>
+								<verso>A shadow on my mind (Oh, a shadow cast upon a wall is silhouette and nothing more)</verso>
+								<verso>All that’s left behind (but it's all that’s left behind)</verso>
+							</quadra>
+							<quadra>
+								<verso>But even if we won't admit it to ourselves</verso>
+								<verso>We'll walk upon these streets and think of little else</verso>
+								<verso>So I won't show my face here anymore</verso>
+								<verso>I won't show my face here anymore</verso>
+							</quadra>
+							<quadra>
+								<verso>I won't show my face here anymore</verso>
+								<verso>I won't show my face here anymore</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Weight of Living, Pt. II" duracao="175">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/4uxcMlrKDqXOsNMrqaOVd6" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=S_aa5-SHvDY" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>The weight of living, the weight of living</verso>
+								<verso>The weight of living, the weight of living</verso>
+								<verso>All that you desired when you were a child</verso>
+								<verso>Was to be old, was to be old</verso>
+								<verso>Now that you are here suddenly you fear</verso>
+								<verso>You’ve lost control, you’ve lost control</verso>
+								<verso>Do you like the person you’ve become... Oh</verso>
+							</quadra>
+							<quadra>
+								<verso>Under the weight of living?</verso>
+								<verso>You’re under the weight of living</verso>
+								<verso>Under the weight of living</verso>
+								<verso>You are under the weight,</verso>
+								<verso>The weight of living, the weight of living</verso>
+							</quadra>
+							<quadra>
+								<verso>It all crept up on you, in the night it got you</verso>
+								<verso>And plagued your mind, it plagues your mind</verso>
+								<verso>Every day it passes faster than the last did</verso>
+								<verso>And you’ll be old, soon you’ll be old</verso>
+								<verso>Do you like the person you’ve become...</verso>
+							</quadra>
+							<quadra>
+								<verso>Under the weight of living?</verso>
+								<verso>You’re under the weight of living</verso>
+								<verso>Under the weight of living</verso>
+								<verso>You are under the weight,</verso>
+								<verso>The weight of living, the weight of living</verso>
+							</quadra>
+							<quadra>
+							</quadra>
+							<quadra>
+								<verso>Oh tell yourself this is how it’s going to be</verso>
+								<verso>Oh tell yourself this is how it’s going to be... Oh</verso>
+							</quadra>
+							<quadra>
+								<verso>Under the weight of living </verso>
+								<verso>You’re under the weight of living</verso>
+								<verso>Under the weight of living</verso>
+								<verso>You are under the weight,</verso>
+								<verso>The weight of living, the weight of living</verso>
+								<verso>The weight of living, the weight of living</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Icarus" duracao="225">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/7AO2eDrX9bCURGUiIFdQ0e" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=FehA9OwZflw" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Look who's digging their own grave</verso>
+								<verso>That is what they all say</verso>
+								<verso>You'll drink yourself to death</verso>
+							</quadra>
+							<quadra>
+								<verso>Look who makes their own bed</verso>
+								<verso>Lies right down within it</verso>
+								<verso>And what will you have left?</verso>
+							</quadra>
+							<quadra>
+								<verso>Out on the front doorstep</verso>
+								<verso>Drinking from a paper cup</verso>
+								<verso>You won't remember this</verso>
+							</quadra>
+							<quadra>
+								<verso>Living beyond your years</verso>
+								<verso>Acting out all their fears</verso>
+								<verso>You feel it in your chest</verso>
+							</quadra>
+							<quadra>
+								<verso>Your hands protect the flames</verso>
+								<verso>From the wild winds around you</verso>
+							</quadra>
+							<quadra>
+								<verso>Icarus is flying too close to the sun</verso>
+								<verso>And Icarus's life, it has only just begun</verso>
+								<verso>It's just begun</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh</verso>
+							</quadra>
+							<quadra>
+								<verso>Standing on the cliff face</verso>
+								<verso>Highest fall you'll ever grace</verso>
+								<verso>It scares me half to death</verso>
+							</quadra>
+							<quadra>
+								<verso>Look out to the future</verso>
+								<verso>But it tells you nothing</verso>
+								<verso>So take another breath</verso>
+							</quadra>
+							<quadra>
+								<verso>Your hands protect the flames</verso>
+								<verso>From the wild winds around you</verso>
+							</quadra>
+							<quadra>
+								<verso>Icarus is flying too close to the sun</verso>
+								<verso>And Icarus's life, it has only just begun</verso>
+								<verso>And this is how it feels to take a fall</verso>
+								<verso>Icarus is flying towards an early grave</verso>
+							</quadra>
+							<quadra>
+								<verso>You put up your defenses when you leave</verso>
+								<verso>You leave because you're certain</verso>
+								<verso>Of who you want to be</verso>
+							</quadra>
+							<quadra>
+								<verso>You're putting up your armor when you leave</verso>
+								<verso>And you leave because you're certain</verso>
+								<verso>Of who you want to be, oh</verso>
+							</quadra>
+							<quadra>
+								<verso>Icarus is flying too close to the sun</verso>
+								<verso>And Icarus's life, it has only just begun</verso>
+								<verso>This is how it feels to take a fall</verso>
+								<verso>Icarus is flying towards an early grave</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Oblivion" duracao="196">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/3nfpiEttnjNGyi0bg0pHwt" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=VgXOPeobPcI" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>When you fall asleep with your head upon my shoulder.</verso>
+								<verso>When you're in my arms but you've gone somewhere deeper.</verso>
+							</quadra>
+							<quadra>
+								<verso>Are you going to age with grace?</verso>
+								<verso>Are you going to age without mistakes?</verso>
+								<verso>Are you going to age with grace,</verso>
+								<verso>Or only to wake and hide your face?</verso>
+							</quadra>
+							<quadra>
+								<verso>When oblivion is calling out your name,</verso>
+								<verso>You always take it further than I ever can.</verso>
+							</quadra>
+							<quadra>
+								<verso>When you play it hard, and I try to follow you there.</verso>
+								<verso>It's not about control but I turn back when I see where you go.</verso>
+							</quadra>
+							<quadra>
+								<verso>Are you going to age with grace?</verso>
+								<verso>Are you going to leave a path to trace?</verso>
+							</quadra>
+							<quadra>
+								<verso>But oblivion is calling out your name,</verso>
+								<verso>You always take it further than I ever can.</verso>
+							</quadra>
+							<quadra>
+								<verso>When oh oblivion is calling out your name,</verso>
+								<verso>You always take it further than I ever can.</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Flaws" duracao="218">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0XtJgHek9CojyK72X8zWIG" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=1E36WU9Wzf4" />
+						</links>
+						<generos>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>When all of your flaws and all of my flaws are laid out one by one</verso>
+								<verso>A wonderful part of the mess that we made</verso>
+								<verso>We pick ourselves undone</verso>
+							</quadra>
+							<quadra>
+								<verso>All of your flaws and all of my flaws, they lie there hand in hand</verso>
+								<verso>Ones we've inherited, ones that we learn</verso>
+								<verso>They pass from man to man</verso>
+							</quadra>
+							<quadra>
+								<verso>There's a hole in my soul</verso>
+								<verso>I can't fill it, I can't fill it</verso>
+								<verso>There's a hole in my soul</verso>
+								<verso>Can you fill it? Can you fill it?</verso>
+							</quadra>
+							<quadra>
+								<verso>You have always worn your flaws upon your sleeve</verso>
+								<verso>And I have always buried them deep beneath the ground</verso>
+								<verso>Dig them up - let's finish what we started</verso>
+								<verso>Dig them up - so nothing's left unturned</verso>
+							</quadra>
+							<quadra>
+								<verso>All of your flaws and all of my flaws, when they have been exhumed</verso>
+								<verso>We'll see that we need them to be who we are</verso>
+								<verso>Without them we'd be doomed</verso>
+							</quadra>
+							<quadra>
+								<verso>There's a hole in my soul</verso>
+								<verso>I can't fill it, I can't fill it</verso>
+								<verso>There's a hole in my soul</verso>
+								<verso>Can you fill it? Can you fill it?</verso>
+							</quadra>
+							<quadra>
+								<verso>You have always worn your flaws upon your sleeve</verso>
+								<verso>And I have always buried them deep beneath the ground</verso>
+								<verso>Dig them up - let's finish what we started</verso>
+								<verso>Dig them up - so nothing's left unturned</verso>
+							</quadra>
+							<quadra>
+								<verso>Oooooh</verso>
+								<verso>Oooooh</verso>
+							</quadra>
+							<quadra>
+								<verso>When all of your flaws and all of my flaws are counted</verso>
+								<verso>When all of your flaws and all of my flaws are counted</verso>
+							</quadra>
+							<quadra>
+								<verso>You have always worn your flaws upon your sleeve</verso>
+								<verso>And I have always buried them deep beneath the ground</verso>
+								<verso>Dig them up - let's finish what we started</verso>
+								<verso>Dig them up - so nothing's left unturned</verso>
+							</quadra>
+							<quadra>
+								<verso>Oooooh</verso>
+								<verso>Oooooh</verso>
+							</quadra>
+							<quadra>
+								<verso>All of your flaws and all of my flaws are laid out one by one</verso>
+								<verso>Look at the wonderful mess that we made</verso>
+								<verso>We pick ourselves undone</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Daniel in the Den" duracao="183">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/2v3PYJDvbE3JCQ33OMOu3h" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=yC_T-KdWCiI" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Moving along at a pace unknown to man</verso>
+								<verso>Go go go go go go</verso>
+								<verso>Go go go go go</verso>
+							</quadra>
+							<quadra>
+								<verso>And you thought the lions were bad</verso>
+								<verso>Well they tried to kill my brothers</verso>
+								<verso>And for every king that died</verso>
+								<verso>Oh they would crown another</verso>
+								<verso>And it's harder than you think</verso>
+								<verso>Telling dreams from one another</verso>
+								<verso>And you thought the lions were bad</verso>
+								<verso>Well they tried to kill my brothers</verso>
+							</quadra>
+							<quadra>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+							</quadra>
+							<quadra>
+								<verso>Dreaming along at a pace you'll understand</verso>
+								<verso>Go go go go go go</verso>
+								<verso>No no no no no</verso>
+							</quadra>
+							<quadra>
+								<verso>And you thought the lions were bad</verso>
+								<verso>Well they tried to kill my brothers</verso>
+								<verso>And for every king that died</verso>
+								<verso>Oh they would crown another</verso>
+								<verso>And it's harder than you think</verso>
+								<verso>Telling dreams from one another</verso>
+								<verso>And you thought the lions were bad</verso>
+								<verso>Well they tried to kill my brothers</verso>
+							</quadra>
+							<quadra>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh, to see what it means to be free</verso>
+								<verso>Of the shackles and the dreams</verso>
+								<verso>That you claim to see</verso>
+							</quadra>
+							<quadra>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh</verso>
+							</quadra>
+							<quadra>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+							</quadra>
+							<quadra>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love</verso>
+								<verso>They will come for you</verso>
+							</quadra>
+							<quadra>
+								<verso>And felled in the night</verso>
+								<verso>By the ones you think you love.</verso>
+								<verso>Felled in the night</verso>
+								<verso>By the ones you think you love.</verso>
+								<verso>Felled in the night</verso>
+								<verso>By the ones you think you love, love.</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Laura Palmer" duracao="186">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/1TCdgVHEVd48HKpSdJOYk4" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=JQnSc0bczg0" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Walking out into the dark</verso>
+								<verso>Cutting out a different path</verso>
+								<verso>Led by your beating heart</verso>
+							</quadra>
+							<quadra>
+								<verso>All the people of the town</verso>
+								<verso>Cast their eyes right to the ground</verso>
+								<verso>In matters of the heart</verso>
+							</quadra>
+							<quadra>
+								<verso>The night was all you had</verso>
+								<verso>You ran into the night from all you had</verso>
+								<verso>Found yourself a path upon the ground</verso>
+								<verso>You ran into the night you can’t be found</verso>
+							</quadra>
+							<quadra>
+								<verso>But this is your heart</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+								<verso>Pumps through your veins</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+							</quadra>
+							<quadra>
+								<verso>Summer evening breezes blew</verso>
+								<verso>Drawing voices deep from you</verso>
+								<verso>Led by your beating heart</verso>
+							</quadra>
+							<quadra>
+								<verso>What a year and what a night</verso>
+								<verso>What terrifying final sights</verso>
+								<verso>Put out your beating heart</verso>
+							</quadra>
+							<quadra>
+								<verso>The night was all you had</verso>
+								<verso>You ran into the night from all you had</verso>
+								<verso>Found yourself a path upon the ground</verso>
+								<verso>You ran into the night you can’t be found</verso>
+							</quadra>
+							<quadra>
+								<verso>But this is your heart</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+								<verso>Pumps through your veins</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+							</quadra>
+							<quadra>
+								<verso>If you had your gun would you shoot it at the sky?</verso>
+								<verso>Why? To see where it would fall</verso>
+								<verso>Oh will you come down at all?</verso>
+								<verso>If you had your gun would you shoot it at the sky?</verso>
+								<verso>Why? To see where your bullet would fall</verso>
+								<verso>Oh will you come down at all?</verso>
+							</quadra>
+							<quadra>
+								<verso>This is your heart</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+								<verso>Pumps through your veins</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+							</quadra>
+							<quadra>
+								<verso>This is your racing heart</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+								<verso>Pumps through your veins</verso>
+								<verso>Can you feel it? Can you feel it?</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Get Home" duracao="191">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/2SNg9jqsE7mGPuIai9mrFK" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=U6-s5RsEmOg" />
+						</links>
+						<generos>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+							</quadra>
+							<quadra>
+								<verso>We are the last people standing</verso>
+								<verso>At the end of the night</verso>
+								<verso>We are the greatest pretenders</verso>
+								<verso>In the cold morning light</verso>
+							</quadra>
+							<quadra>
+								<verso>This is just another night</verso>
+								<verso>And we've had many of them</verso>
+								<verso>To the morning we're cast out</verso>
+								<verso>But I know I'll land here again</verso>
+							</quadra>
+							<quadra>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+							</quadra>
+							<quadra>
+								<verso>There's a light in the bedroom</verso>
+								<verso>But it's dark</verso>
+								<verso>Scattered around on the floor are</verso>
+								<verso>All my thoughts</verso>
+							</quadra>
+							<quadra>
+								<verso>This is just another night</verso>
+								<verso>And we've had many of them</verso>
+								<verso>To the morning we're cast out</verso>
+								<verso>But I know I'll land here again</verso>
+							</quadra>
+							<quadra>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+							</quadra>
+							<quadra>
+								<verso>The birds are mocking me</verso>
+								<verso>They call to be heard</verso>
+								<verso>The birds are mocking me</verso>
+								<verso>They curse my return</verso>
+							</quadra>
+							<quadra>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh, how am I gonna get myself back home?</verso>
+								<verso>I, I, I...</verso>
+								<verso>How am I gonna get myself back home?</verso>
+								<verso>I, I...</verso>
+								<verso>I'm lost</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Weight of Living, Pt. I" duracao="206">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/6ODRQ1G3luYlcUtxJmmBgi" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=xyzHYg9BYRs" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>There's an albatross around your neck,</verso>
+								<verso>All the things you've said,</verso>
+								<verso>And the things you've done,</verso>
+								<verso>Can you carry it with no regrets,</verso>
+								<verso>Can you stand the person you've become,</verso>
+								<verso>Ooh there's a light</verso>
+								<verso>Ooh there's a light</verso>
+							</quadra>
+							<quadra>
+								<verso>Your Albatross, let it go, let it go,</verso>
+								<verso>Your Albatross shoot it down, shoot it down</verso>
+								<verso>When you just can't shake the</verso>
+								<verso>Heavy weight of living</verso>
+							</quadra>
+							<quadra>
+								<verso>Stepping forward out into the day</verso>
+								<verso>Shrugging off the dust and memory</verso>
+								<verso>Though it's soaring still above your head</verso>
+								<verso>It is out of sight and none shall see</verso>
+								<verso>Ooh there's a light</verso>
+								<verso>Ooh there's a light</verso>
+							</quadra>
+							<quadra>
+								<verso>Your Albatross, let it go, let it go,</verso>
+								<verso>Your Albatross shoot it down, shoot it down</verso>
+								<verso>When you just can't shake the</verso>
+								<verso>Heavy weight of living</verso>
+								<verso>When you just can't seem to shake</verso>
+								<verso>The weight of living</verso>
+							</quadra>
+							<quadra>
+								<verso>It's the sun in your eyes, in your eyes</verso>
+								<verso>It's the sun in your eyes, in your eyes</verso>
+								<verso>It's the sun in your eyes, in your eyes</verso>
+								<verso>It's the sun in your eyes, in your eyes</verso>
+							</quadra>
+							<quadra>
+								<verso>Your Albatross, let it go, let it go,</verso>
+								<verso>Your Albatross shoot it down, shoot it down</verso>
+								<verso>When you just can't shake the</verso>
+								<verso>Heavy weight of living</verso>
+								<verso>When you just can't seem to shake</verso>
+								<verso>The weight of living</verso>
+							</quadra>
+							<quadra>
+								<verso>The weight of living</verso>
+								<verso>The weight of living</verso>
+								<verso>The weight of living</verso>
+								<verso>The weight of living</verso>
+							</quadra>
+						</letra>
+					</faixa>
+				</faixas>
+			</album>
+			<album titulo="VS. (Other People's Heartache, Pt. III)" imagem="bastille_vs.jpg" ano="2014" editora="Virgin Records">
+				<links>
+					<link site="Amazon" logo="amazonLogo.jpg" url="https://www.amazon.co.uk/VS-Other-Peoples-Heartache-Explicit/dp/B00OLBZ8M4" />
+					<link site="iTunes" logo="iTunes.jpg" url="https://itunes.apple.com/us/album/vs-other-peoples-heartache-pt-iii/id931281859" />
+				</links>
+				<faixas>
+					<faixa titulo='Fall Into Your Arms (featuring The Gemma Sharples Quartet)' duracao="109">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0GD65x9bZXa8u16ZKNKhnb" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=8Kjaov067QY" />
+						</links>
+						<generos>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>You don't listen to me.</verso>
+								<verso>You don't listen to me anymore.</verso>
+								<verso>And your voice is a weapon and we'll do with it what we can.</verso>
+								<verso>And your voice is a weapon and we'll do with it what we can.</verso>
+								<verso>I'll fall into your arms again, I'll fall into your arms again.</verso>
+								<verso>I'll fall into your arms again, I'll fall into your arms.</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo='Bite Down (featuring HAIM)' duracao="180">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0mYWBwLXmJBbIBd494YyyR" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=WL1WuxL2bMc" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>You don’t have to look any further</verso>
+								<verso>I’ve been waiting here for you for time</verso>
+								<verso>You don’t have to look any further</verso>
+								<verso>You’re missing what is right before your eyes</verso>
+							</quadra>
+							<quadra>
+								<verso>No one’s gonna stick the pieces together for you</verso>
+								<verso>Together for you</verso>
+								<verso>No one’s gonna stick the pieces together for you</verso>
+								<verso>Together for you</verso>
+							</quadra>
+							<quadra>
+								<verso>You’ve got your claws buried deep</verso>
+								<verso>Bite down, bite down into me</verso>
+								<verso>Bite down, bite down into me</verso>
+								<verso>You better sink your teeth before I disappear</verso>
+								<verso>Bite down, bite down into me</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh, I’m not gonna try</verso>
+								<verso>Ooh, I’m not gonna try</verso>
+								<verso>Ooh, I’m not gonna try</verso>
+								<verso>No, no, no, I’m not gonna try</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh I’m tryna keep my composure</verso>
+								<verso>But every time you shake coming down I die</verso>
+							</quadra>
+							<quadra>
+								<verso>You've been looking</verso>
+							</quadra>
+							<quadra>
+								<verso>Keep looking me over</verso>
+							</quadra>
+							<quadra>
+								<verso>I’m tired of waving my arms in the back of the line</verso>
+							</quadra>
+							<quadra>
+								<verso>No one’s gonna stick the pieces together for you</verso>
+								<verso>Together for you</verso>
+								<verso>No one’s gonna stick the pieces together for you</verso>
+								<verso>Together for you</verso>
+							</quadra>
+							<quadra>
+								<verso>Bite down, bite down into me</verso>
+								<verso>Bite down, bite down into me</verso>
+								<verso>You better sink your teeth before I disappear</verso>
+								<verso>Bite down, bite down into me</verso>
+							</quadra>
+							<quadra>
+								<verso>'Cause there are only so many times</verso>
+								<verso>That I can come a-running</verso>
+								<verso>And there are only so many times</verso>
+								<verso>That I can come a-running for you</verso>
+							</quadra>
+							<quadra>
+								<verso>Bite down, bite down into me</verso>
+								<verso>Bite down, bite down into me</verso>
+								<verso>You better sink your teeth before I disappear</verso>
+								<verso>Bite down, bite down into me</verso>
+							</quadra>
+							<quadra>
+								<verso>Bite down, bite down into me</verso>
+								<verso>Bite down, bite down into me</verso>
+								<verso>You better sink your teeth before I disappear</verso>
+								<verso>Bite down, bite down into me</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh, I’m not gonna try</verso>
+								<verso>Ooh, I’m not gonna try</verso>
+								<verso>Ooh, I’m not gonna try</verso>
+								<verso>No, no, no, I’m not gonna try</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="bad_news (featuring MNEK)" duracao="288">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0uzM3UBcpUiIq8fIQFPDaq" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=_dtywPNWqTI" />
+						</links>
+						<generos>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Bad news like a sucker punch, what do you say?</verso>
+								<verso>Air knocked out of my lungs, your cue to stay</verso>
+								<verso>When you hear something difficult don't back away</verso>
+								<verso>Some people say nothing, good ones engage</verso>
+							</quadra>
+							<quadra>
+								<verso>Don't turn your back on me</verso>
+								<verso>Don't bury your head deep</verso>
+								<verso>Just cause you don't know what to say</verso>
+							</quadra>
+							<quadra>
+								<verso>Don't turn your back on me</verso>
+								<verso>Don't bury your head deep</verso>
+								<verso>Just cause you don't know what to say</verso>
+							</quadra>
+							<quadra>
+								<verso>It's true</verso>
+								<verso>That it kicks you in the teeth when you are least expecting</verso>
+								<verso>Bad news</verso>
+								<verso>Oh it beats you black and blue before you see it coming</verso>
+							</quadra>
+							<quadra>
+								<verso>Bad news like a sucker punch blew me away</verso>
+								<verso>People fill the streets like nothing has changed</verso>
+								<verso>Clock hands tick along, they don't look the same</verso>
+								<verso>Planes fly overhead like any old day</verso>
+							</quadra>
+							<quadra>
+								<verso>Don't turn your back on me</verso>
+								<verso>Don't bury your head deep</verso>
+								<verso>Just cause you don't know what to say</verso>
+							</quadra>
+							<quadra>
+								<verso>Don't turn your back on me</verso>
+								<verso>Don't bury your head deep</verso>
+								<verso>Just cause you don't know what to say</verso>
+							</quadra>
+							<quadra>
+								<verso>It's true</verso>
+								<verso>That it kicks you in the teeth when you are least expecting</verso>
+								<verso>Bad news</verso>
+								<verso>Oh it beats you black and blue before you see it coming</verso>
+							</quadra>
+							<quadra>
+								<verso>Maybe I just want some words of distraction</verso>
+								<verso>I feel like I'm being consumed</verso>
+								<verso>Maybe I'm expecting the perfect reaction</verso>
+								<verso>To pull me back</verso>
+							</quadra>
+							<quadra>
+								<verso>It's true</verso>
+								<verso>That it kicks you in the teeth when you are least expecting</verso>
+								<verso>Bad news</verso>
+								<verso>Oh it beats you black and blue before you see it coming</verso>
+							</quadra>
+							<quadra>
+								<verso>It's true</verso>
+								<verso>That it kicks you in the teeth when you are least expecting</verso>
+								<verso>Bad news</verso>
+								<verso>Oh it beats you black and blue before you see it coming</verso>
+							</quadra>						
+						</letra>
+					</faixa>
+					<faixa titulo="The Driver" duracao="261">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/1u0FClbBEsKwI6vOk9oUmN" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=foXqHUopCJU" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Shout out from the bottom of my lungs</verso>
+								<verso>A plague on both your houses</verso>
+								<verso>This thing</verso>
+								<verso>It’s a family affair</verso>
+								<verso>It’s drawing out my weakness</verso>
+							</quadra>
+							<quadra>
+								<verso>Big boys don’t cry</verso>
+								<verso>They don’t ask why</verso>
+							</quadra>
+							<quadra>
+								<verso>There was a time when a moment like this</verso>
+								<verso>Wouldn’t ever cross my mind</verso>
+								<verso>The sun will rise with my name on your lips</verso>
+								<verso>‘Cause everything will change tonight</verso>
+							</quadra>
+							<quadra>
+								<verso>I want to be back on the ground</verso>
+								<verso>Where my feet touch my shadow</verso>
+								<verso>I want to dig my heels in the dirt</verso>
+								<verso>Feel it break between all of my toes</verso>
+								<verso>Anything to stop floating ‘round</verso>
+								<verso>Bring me down</verso>
+								<verso>Back down below, oh, oh, oh, oh</verso>
+							</quadra>
+							<quadra>
+								<verso>Take breath</verso>
+								<verso>And push the anger down</verso>
+								<verso>Try to remember calmness</verso>
+							</quadra>
+							<quadra>
+								<verso>Big boys don’t cry</verso>
+								<verso>They don’t ask why</verso>
+							</quadra>
+							<quadra>
+								<verso>There was a time when a moment like this</verso>
+								<verso>Wouldn’t ever cross my mind</verso>
+								<verso>The sun will rise with my name on your lips</verso>
+								<verso>‘Cause everything will change tonight</verso>
+							</quadra>
+							<quadra>
+								<verso>Hey now</verso>
+								<verso>What’s the gravity upon your face</verso>
+								<verso>So I’m the one who’s bleeding</verso>
+								<verso>Real men</verso>
+								<verso>Always thinkin’ with our fists</verso>
+								<verso>My turn to be the victim</verso>
+							</quadra>
+							<quadra>
+								<verso>Big boys don’t cry</verso>
+								<verso>They don’t ask why</verso>
+							</quadra>
+							<quadra>
+								<verso>There was a time when a moment like this</verso>
+								<verso>Wouldn’t ever cross my mind</verso>
+								<verso>The sun will rise with my name on your lips</verso>
+								<verso>‘Cause everything will change tonight</verso>
+							</quadra>
+							<quadra>
+								<verso>There was a time when a moment like this</verso>
+								<verso>Wouldn’t ever cross my mind</verso>
+								<verso>The sun will rise with my name on your lips</verso>
+								<verso>‘Cause everything will change tonight</verso>
+							</quadra>						
+						</letra>
+					</faixa>
+					<faixa titulo="Axe to Grind (featuring Tyde and Rationale)" duracao="288">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/1A8GNZEQLkiJzBki0aH0kx" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=kVoaGnlHptM" />
+						</links>
+						<generos>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Long lost opinions, all the words you can't redeem</verso>
+								<verso>Don't come round here and be a slave to old ideas</verso>
+								<verso>Scream halleluiah if it's a thing that helps you breathe</verso>
+								<verso>Your iron rule has often had me on my knees</verso>
+							</quadra>
+							<quadra>
+								<verso>You better sharpen up, you better sharpen up</verso>
+								<verso>Cuz all you have is your axe to grind, grind, grind round here</verso>
+								<verso>You better sharpen up, you better sharpen up</verso>
+								<verso>Cuz all you have is your axe to grind, grind, grind round here</verso>
+							</quadra>
+							<quadra>
+								<verso>Breaking the silence like I'm bursting at the seams</verso>
+								<verso>So many stifled thoughts and long forgotten dreams</verso>
+								<verso>Scream hallelujah, I can almost taste reprieve</verso>
+								<verso>Your iron rule has often had me on my knees</verso>
+							</quadra>
+							<quadra>
+								<verso>You better sharpen up, you better sharpen up</verso>
+								<verso>Cuz all you have is your axe to grind, grind, grind round here</verso>
+								<verso>You better sharpen up, you better sharpen up</verso>
+								<verso>Cuz all you have is your axe to grind, grind, grind round here</verso>
+							</quadra>
+							<quadra>
+								<verso>Keep on talking to yourself cuz no one needs to hear the words you read love</verso>
+								<verso>Keep on talking to yourself cuz you're gonna have to swing that axe round here</verso>
+								<verso>Keep on talking to yourself cuz no one needs to hear the words you read love</verso>
+								<verso>Keep on talking to yourself cuz you're gonna have to swing that axe round here</verso>
+							</quadra>
+							<quadra>
+								<verso>You better sharpen up, you better sharpen up</verso>
+								<verso>Cuz all you have is your axe to grind, grind, grind round here</verso>
+								<verso>You better sharpen up, you better sharpen up</verso>
+								<verso>Cuz all you have is your axe to grind, grind, grind round here</verso>
+							</quadra>						
+						</letra>
+					</faixa>
+					<faixa titulo="Torn Apart (featuring GRADES)" duracao="186">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/7tMS60qyTwG43P51pmr8gI" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=rLrtEyisDMU" />
+						</links>
+						<generos>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>I could only be myself with you around</verso>
+								<verso>Oh, with you around</verso>
+								<verso>And now there's nothing left for me to think about</verso>
+								<verso>Whoa, to think about</verso>
+							</quadra>
+							<quadra>
+								<verso>And it hurts like hell</verso>
+								<verso>To be torn apart</verso>
+								<verso>And it hurts like hell</verso>
+								<verso>To be thrown around</verso>
+							</quadra>
+							<quadra>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+							</quadra>
+							<quadra>
+								<verso>You stepped with a heavy tread</verso>
+								<verso>And left your mark</verso>
+								<verso>Oh, oh, oh</verso>
+								<verso>Your mark on me</verso>
+							</quadra>
+							<quadra>
+								<verso>The space you used to fill it's now this great black hole</verso>
+								<verso>Oh, oh, oh, oh</verso>
+								<verso>You're out of sight but not out of my mind</verso>
+							</quadra>
+							<quadra>
+								<verso>And it hurts like hell</verso>
+								<verso>To be torn apart</verso>
+								<verso>And it hurts like hell</verso>
+								<verso>To be thrown around</verso>
+							</quadra>
+							<quadra>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh, oh, oh, oh, oh, oh, oh, oh</verso>
+							</quadra>
+							<quadra>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh, oh, oh, oh, oh, oh, oh, oh</verso>
+							</quadra>						
+						</letra>
+					</faixa>
+					<faixa titulo="Torn Apart, Pt. II (featuring GRADES and Lizzo)" duracao="62">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/6HEsoNHLEunUtC7hD2GoRK" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=znQPr0vmhgA" />
+						</links>
+						<generos>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+								<verso>We were born to be together</verso>
+								<verso>Torn apart</verso>
+								<verso>Torn apart</verso>
+							</quadra>
+							<quadra>
+								<verso>My yin and yang is killin’ me</verso>
+								<verso>Gotta get back, back to the synergy</verso>
+								<verso>Don’t forget where I been but you’re gonna remember</verso>
+								<verso>When I shake my ass like a leaf of september</verso>
+								<verso>I don’t mean to kill your vibe</verso>
+								<verso>But if you got it, you get it</verso>
+								<verso>And I’ve been getting this shit for a long time</verso>
+							</quadra>
+							<quadra>
+								<verso>Happiness only brings heartache I’m so beyond naughty</verso>
+								<verso>And if you don’t like it then why do you want me?</verso>
+								<verso>I see ya, don’t front if I tickle the strings on your heart</verso>
+								<verso>You play second fiddle to my instrumental</verso>
+								<verso>Your critical nature departs in the middle of all of my riddles</verso>
+								<verso>You’ve given up trying and now you just tear me apart</verso>
+							</quadra>							
+						</letra>
+					</faixa>
+					<faixa titulo="" duracao="">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="" />
+							<link site="YouTube" logo="youtube.jpg" url="" />
+						</links>
+						<generos>
+							<genero>Syth Pop</genero>
+							<genero>Rap</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>[Angel Haze:]</verso>
+								<verso>Yeah</verso>
+								<verso>This is vocal detection</verso>
+								<verso>Front lining our open intellection</verso>
+								<verso>Outlining opening profession</verso>
+								<verso>This is a vocal confession</verso>
+								<verso>Right now your cause is at war</verso>
+								<verso>Screaming you want it and more</verso>
+								<verso>Sit down ambassador reference</verso>
+								<verso>Right now your voice is a weapon</verso>
+								<verso>Wake up to stars in the sky</verso>
+								<verso>Watch light revolve with your mind</verso>
+								<verso>Watch all the storms in the rise</verso>
+								<verso>And put all your palms in the sky</verso>
+								<verso>No more falling to pressure</verso>
+								<verso>No more failing acceptance</verso>
+								<verso>Throw all your hells towards the heavens</verso>
+								<verso>Cause your voice is a weapon</verso>
+							</quadra>
+							<quadra>
+								<verso>[Dan:]</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>And we'll do with it what we can</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>And we'll do with it what we can</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms</verso>
+							</quadra>
+							<quadra>
+								<verso>[Angel Haze:]</verso>
+								<verso>We dance with the devils</verso>
+								<verso>And make your halos the color of sinner's portraits</verso>
+								<verso>And smothering it means everything's lovely again</verso>
+								<verso>Nothing's quite as it seems</verso>
+								<verso>Society's altered you see</verso>
+								<verso>Kill all your fear in your sleep</verso>
+								<verso>Cause everything's formed in a dream</verso>
+								<verso>Breathe in insanity's grip</verso>
+								<verso>Words from insanity's lips</verso>
+								<verso>Falling from sanity's cliff</verso>
+								<verso>Watching your vanity slip</verso>
+								<verso>No more falling to pressure</verso>
+								<verso>No more failing acceptance</verso>
+								<verso>Throw all your hells towards the heavens</verso>
+								<verso>Cause your voice is a weapon</verso>
+							</quadra>
+							<quadra>
+								<verso>[Dan:]</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>And we'll do with it what we can</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>And we'll do with it what we can</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms</verso>
+							</quadra>
+							<quadra>
+								<verso>[Angel Haze:]</verso>
+								<verso>Pressure that deepen the cut</verso>
+								<verso>Run for the evil erupt</verso>
+								<verso>Volcanic feverish lust</verso>
+								<verso>That shit that even it out</verso>
+								<verso>Pressure is feeding the dust</verso>
+								<verso>Breakfast is keeping the cut</verso>
+								<verso>Vengeance is me speaking up</verso>
+								<verso>This is me speaking up</verso>
+							</quadra>
+							<quadra>
+								<verso>[Dan:]</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>This is vocal confession</verso>
+								<verso>And it's shooting you down, down, down</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>This is vocal confession</verso>
+								<verso>And we're shooting you down, down, down</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>And we'll do with it what we can</verso>
+								<verso>And your voice is a weapon</verso>
+								<verso>And we'll do with it what we can</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms again</verso>
+								<verso>I'll fall into your arms</verso>
+							</quadra>
+							<quadra>
+								<verso>[F*U*G*Z/Braque:]</verso>
+								<verso>Choose your words and etch them on your soul</verso>
+								<verso>Make them heard when crowds drown out your call</verso>
+								<verso>Leave behind your questions, silent thoughts, and mentions</verso>
+								<verso>A wake has to be left so never falter down</verso>
+								<verso>Your voice is a weapon</verso>
+								<verso>So do with it what you can</verso>
+								<verso>Your voice is a weapon</verso>
+								<verso>So do with it what you can</verso>
+								<verso>Leave behind your questions, silent thoughts, and mentions</verso>
+								<verso>Your voice is a weapon</verso>
+								<verso>So do with it what you can</verso>
+							</quadra>							
+						</letra>
+					</faixa>
+					<faixa titulo="Remains" duracao="279">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0XDkORnqAgnWMtqKlouLWT" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=bTxx5CfeNg8" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>I came here for sanctuary, away from the winds and the sounds of the city.</verso>
+								<verso>I came here to get some peace, way down deep where the shadows are heavy.</verso>
+								<verso>I can't help but think of you.</verso>
+								<verso>In these four walls my thoughts seem to wonder</verso>
+								<verso>To some distant century where everyone we know is six feet under.</verso>
+							</quadra>
+							<quadra>
+								<verso>When all of our friends are dead and just a memory</verso>
+								<verso>And we're side by side, it's always been just you and me for all to see.</verso>
+							</quadra>
+							<quadra>
+								<verso>When our lives are over and all that remains.</verso>
+								<verso>Are our skulls and bones let's take it to the grave.</verso>
+								<verso>And hold me in your arms, hold me in your arms, I'll be buried here with you.</verso>
+								<verso>And I'll hold in these hands, all that remains.</verso>
+							</quadra>
+							<quadra>
+								<verso>I don't want to rest in peace, we can haunt each other's dreams.</verso>
+								<verso>We'll fight underneath this turf, bicker away in darkness.</verso>
+								<verso>We'll find our way to result our way from the lands of the living.</verso>
+								<verso>We'll find a common ground and fall in love all over again.</verso>
+							</quadra>
+							<quadra>
+								<verso>When all of our friends are dead and just a memory</verso>
+								<verso>And we're side by side, it's always been just you and me for all, all to see.</verso>
+							</quadra>
+							<quadra>
+								<verso>When our lives are over and all that remains.</verso>
+								<verso>Are our skulls and bones let's take it to the grave.</verso>
+								<verso>And hold me in your arms, hold me in your arms, I'll be buried here with you.</verso>
+								<verso>And I'll hold in these hands, all that remains.</verso>
+							</quadra>
+							<quadra>
+								<verso>From dust to dawn.</verso>
+								<verso>The other's screams grow silent in defeat.</verso>
+								<verso>I know I chased a memory but you used to taste so sweet.</verso>
+								<verso>As you faded away I realised it's all over and nothing stays the same</verso>
+								<verso>From our skulls and bones and grave.</verso>
+							</quadra>
+							<quadra>
+								<verso>When all of our friends are dead and just a memory</verso>
+								<verso>And we're side by side, it's always been just you and me for all, all to see.</verso>
+							</quadra>
+							<quadra>
+								<verso>When our lives are over and all that remains.</verso>
+								<verso>Are our skulls and bones let's take it to the grave.</verso>
+								<verso>Hold me in your arms, hold me in your arms, I'll be buried here with you.</verso>
+								<verso>And I'll hold in these hands, all that remains.</verso>
+							</quadra>						
+						</letra>
+					</faixa>
+				</faixas>
+			</album>
+			<album titulo="Wild World" imagem="bastille_wildWorld.jpg" ano="2016" editora="Virgin">
+				<links>
+					<link site="Amazon" logo="amazonLogo.jpg" url="https://www.amazon.com/Wild-World-Bastille/dp/B01HQZY926" />
+					<link site="iTunes" logo="iTunes.jpg" url="https://itunes.apple.com/us/album/wild-world/id1127933001" />
+				</links>
+				<faixas>
+					<faixa titulo="Good Grief" duracao="206">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/6IGA5YrFiEr5ANrMqKkR6H" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=ZWCB3hpJDXM" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>So, what would you little maniacs like to do first?</verso>
+							</quadra>
+							<quadra>
+								<verso>Watching through my fingers, watching through my fingers</verso>
+								<verso>Shut my eyes and count to ten</verso>
+								<verso>It goes in one ear out the other, one ear out the other</verso>
+								<verso>Burning bright right till the end</verso>
+								<verso>Now you'll be missing from the photographs, missing from the photographs</verso>
+							</quadra>
+							<quadra>
+								<verso>Watching through my fingers, watching through my fingers</verso>
+								<verso>In my thoughts you're far away</verso>
+								<verso>And you are whistling a melody, whistling a melody</verso>
+								<verso>Crystallizing clear as day</verso>
+								<verso>Oh I can picture you so easily, picture you so easily</verso>
+							</quadra>
+							<quadra>
+								<verso>What's gonna be left of the world if you're not in it?</verso>
+								<verso>What's gonna be left of the world, oh</verso>
+							</quadra>
+							<quadra>
+								<verso>Every minute and every hour</verso>
+								<verso>I miss you, I miss you, I miss you more</verso>
+								<verso>Every stumble and each misfire</verso>
+								<verso>I miss you, I miss you, I miss you more</verso>
+							</quadra>
+							<quadra>
+								<verso>Watching through my fingers, watching through my fingers</verso>
+								<verso>Caught off guard by your favorite song</verso>
+								<verso>Oh I'll be dancing at a funeral, dancing at a funeral</verso>
+								<verso>Sleeping in the clothes you love</verso>
+								<verso>It's such a shame we had to see them burn, shame we had to see them burn</verso>
+							</quadra>
+							<quadra>
+								<verso>What's gonna be left of the world if you're not in it?</verso>
+								<verso>What's gonna be left of the world, oh</verso>
+							</quadra>
+							<quadra>
+								<verso>Every minute and every hour</verso>
+								<verso>I miss you, I miss you, I miss you more</verso>
+								<verso>Every stumble and each misfire</verso>
+								<verso>I miss you, I miss you, I miss you more</verso>
+							</quadra>
+							<quadra>
+								<verso>You might have to excuse me</verso>
+								<verso>I've lost control of all my senses</verso>
+								<verso>And you might have to excuse me</verso>
+								<verso>I've lost control of all my words</verso>
+								<verso>So get drunk, call me a fool</verso>
+								<verso>Put me in my place, put me in my place</verso>
+								<verso>Pick me up, up off the floor</verso>
+								<verso>Put me in my place, put me in my place</verso>
+							</quadra>
+							<quadra>
+								<verso>Every minute and every hour</verso>
+								<verso>I miss you, I miss you, I miss you more</verso>
+								<verso>Every stumble and each misfire</verso>
+								<verso>I miss you, I miss you, I miss you more</verso>
+							</quadra>
+							<quadra>
+								<verso>Watching through my fingers, watching through my fingers</verso>
+								<verso>Cause every minute and every hour</verso>
+								<verso>I miss you, I miss you, I miss you more</verso>
+							</quadra>						
+						</letra>
+					</faixa>
+					<faixa titulo="The Currents" duracao="204">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/6F92C7aYYFq0AMQgXzS8o5" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=NxM0pRvaDsw" />
+						</links>
+						<generos>
+							<genero>genero</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Roll up another cigarette</verso>
+								<verso>Using a minute that it takes</verso>
+								<verso>To think about the power of your words</verso>
+								<verso>We're living in the currents you create</verso>
+								<verso>We're sinking in the pool of your mistakes</verso>
+								<verso>So stub it out, your podium awaits</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh my God, my God</verso>
+								<verso>I can't quite believe my ears</verso>
+							</quadra>
+							<quadra>
+								<verso>I'm swimming to the surface</verso>
+								<verso>I'm coming up for air</verso>
+								<verso>Cause you're making me feel nervous</verso>
+								<verso>I need to clear my head</verso>
+								<verso>I can't believe my ears</verso>
+								<verso>I don't wanna believe my ears</verso>
+								<verso>Swimming to the surface</verso>
+								<verso>Coming up for air</verso>
+							</quadra>
+							<quadra>
+								<verso>How can you think you're serious?</verso>
+								<verso>Do you even know what year it is?</verso>
+								<verso>I can't believe the scary points you make</verso>
+								<verso>Still living in the currents you create</verso>
+								<verso>Still sinking in the pool of your mistakes</verso>
+								<verso>Won't you stop firing up the crazies?</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh my God, my God</verso>
+								<verso>I can't quite believe my ears</verso>
+							</quadra>
+							<quadra>
+								<verso>I'm swimming to the surface</verso>
+								<verso>I'm coming up for air</verso>
+								<verso>Cause you're making me feel nervous</verso>
+								<verso>I need to clear my head</verso>
+								<verso>I can't believe my ears</verso>
+								<verso>I don't wanna believe my ears</verso>
+								<verso>Swimming to the surface</verso>
+								<verso>Coming up for air</verso>
+							</quadra>
+							<quadra>
+								<verso>"When anybody preaches disunity tries to pit one of us against the other...</verso>
+								<verso>You know that person seeks to rob us of our freedom and destroy our very lives"</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh, I need a breath</verso>
+								<verso>I need a breath</verso>
+								<verso>Fill my lungs</verso>
+								<verso>Let me fill my lungs</verso>
+								<verso>Oh, I need a breath</verso>
+								<verso>I need a breath</verso>
+								<verso>Fill my lungs</verso>
+								<verso>Let me fill my lungs</verso>
+								<verso>Oh, I need a breath</verso>
+								<verso>I need a breath</verso>
+								<verso>Fill my lungs</verso>
+								<verso>Let me fill my lungs</verso>
+								<verso>Oh, I need a breath</verso>
+								<verso>I need a breath</verso>
+								<verso>Fill my lungs</verso>
+								<verso>Let me fill my lungs</verso>
+							</quadra>
+							<quadra>
+								<verso>I'm swimming to the surface</verso>
+								<verso>I'm coming up for air</verso>
+								<verso>Cause you're making me feel nervous</verso>
+								<verso>I need to clear my head</verso>
+								<verso>I can't believe my ears</verso>
+								<verso>I don't wanna believe my ears</verso>
+								<verso>Swimming to the surface</verso>
+								<verso>Coming up for air</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="An Act Of Kindness" duracao="208">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0x2VaCNfT2xoyrcI3wM42S" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=VTM4GSJAZQ4" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+						</letra>
+					</faixa>
+					<faixa titulo="Warmth" duracao="229">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/6gp4WaJIxgEwgRLvlelmwa" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=yKWZsLV5VgA" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Never good, just the bad and the ugly</verso>
+								<verso>Laid in front of you</verso>
+								<verso>Nothing quite like seeing the world through the TV's window</verso>
+								<verso>Feeling helpless I look for distraction</verso>
+								<verso>I go searching for you, </verso>
+								<verso>Wandering through our city to find some solace at your door</verso>
+							</quadra>
+							<quadra>
+								<verso>I can't stop thinking about it</verso>
+								<verso>I can't stop thinking about it</verso>
+								<verso>Tell me did you see the news tonight</verso>
+							</quadra>
+							<quadra>
+								<verso>Hold me in this wild, wild world</verso>
+								<verso>Cause in your warmth I forget how cold it can be</verso>
+								<verso>And in your heat I feel how cold it can get</verso>
+								<verso>Hold me in this wild, wild world</verso>
+								<verso>Cause in your warmth I forget how cold it can be</verso>
+								<verso>And in your heat I feel how cold it can get</verso>
+								<verso>Now draw me close</verso>
+							</quadra>
+							<quadra>
+								<verso>So come on let's forget the emotion</verso>
+								<verso>Tie the blinkers on</verso>
+								<verso>Hold both hands right over my eyes</verso>
+								<verso>Deafen me with music</verso>
+								<verso>'Till we're lost in the heat of the moment</verso>
+								<verso>And I'm moving in you</verso>
+								<verso>Help me keep these hours alive</verso>
+								<verso>Help me chase those seconds</verso>
+							</quadra>
+							<quadra>
+								<verso>I just keep talking about it</verso>
+								<verso>But I'll do nothing about it</verso>
+								<verso>Tell me did you see the news last night</verso>
+							</quadra>
+							<quadra>
+								<verso>Hold me in this wild, wild world</verso>
+								<verso>Cause in your warmth I forget how cold it can be</verso>
+								<verso>And in your heat I feel how cold you can get</verso>
+								<verso>Hold me in this wild, wild world</verso>
+								<verso>Cause in your warmth I forget how cold it can be</verso>
+								<verso>And in your heat I feel how cold it can get</verso>
+								<verso>Now draw me close</verso>
+							</quadra>
+							<quadra>
+								<verso>Hold me in this wild, wild world</verso>
+							</quadra>
+							<quadra>
+								<verso>Hold me in this wild, wild world</verso>
+								<verso>Cause in your warmth I forget how cold it can be</verso>
+								<verso>And in your heat I feel how cold it can get</verso>
+								<verso>Hold me in this wild, wild world</verso>
+								<verso>Cause in your warmth I forget how cold it can be</verso>
+								<verso>And in your heat I feel how cold it can get</verso>
+								<verso>So draw me close, draw me close</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Glory" duracao="281">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/43Ihf4Lp2OiH4RLtB78NcN" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=zxJCMOMx550" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+						</generos>
+						<letra>
+						<quadra>
+								<verso>Deep in a corner of the night</verso>
+								<verso>We were lying in the middle of the road</verso>
+								<verso>Counting the planes as they flew by</verso>
+								<verso>Inconceivable imagining them go</verso>
+								<verso>And drunk we set the world to rights</verso>
+								<verso>As we fell and hit our heads upon the curb</verso>
+								<verso>You make me laugh until I die</verso>
+								<verso>Can you think of any better way to choke?</verso>
+							</quadra>
+							<quadra>
+								<verso>Stories told to me and stories told to you</verso>
+								<verso>And did you ever feel like they were ringing true?</verso>
+							</quadra>
+							<quadra>
+								<verso>And all their words for glory</verso>
+								<verso>Well they always sounded empty</verso>
+								<verso>When we're looking up for heaven</verso>
+								<verso>Looking up for heaven</verso>
+								<verso>And way down here upon the ground</verso>
+								<verso>When we're lying in the dirt</verso>
+								<verso>There's no looking up for heaven</verso>
+								<verso>Looking up for heaven</verso>
+							</quadra>
+							<quadra>
+								<verso>Not everything had gone to plan</verso>
+								<verso>But we made the best of what we had, you know</verso>
+								<verso>Passing the drink from hand to hand</verso>
+								<verso>We admit we really know nothing at all</verso>
+							</quadra>
+							<quadra>
+								<verso>Stories told to me and stories told to you</verso>
+								<verso>And was it feeling real, and were they ringing true?</verso>
+							</quadra>
+							<quadra>
+								<verso>And all their words for glory</verso>
+								<verso>Well they always sounded empty</verso>
+								<verso>When we're looking up for heaven</verso>
+								<verso>Looking up for heaven</verso>
+								<verso>And way down here upon the ground</verso>
+								<verso>When we're lying in the dirt</verso>
+								<verso>There's no looking up for heaven</verso>
+								<verso>Looking up for heaven</verso>
+							</quadra>
+							<quadra>
+								<verso>I'll take my chances on the curb here with you</verso>
+								<verso>We watched the planes leave us behind</verso>
+								<verso>On the curb here with you</verso>
+								<verso>We watched the planes leave us behind</verso>
+								<verso>And then you put your hand in mine</verso>
+								<verso>And pulled me back from things divine</verso>
+								<verso>Stop looking up for heaven, waiting to be buried</verso>
+							</quadra>
+							<quadra>
+								<verso>And all their words for glory</verso>
+								<verso>Well they always sounded empty</verso>
+								<verso>When we're looking up for heaven</verso>
+								<verso>Looking up for heaven</verso>
+								<verso>And way down here upon the ground</verso>
+								<verso>When we're lying in the dirt</verso>
+								<verso>There's no looking up for heaven</verso>
+								<verso>Looking up for heaven</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Power" duracao="209">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0xvheQU4o81CSf8BRTI90A" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=H1WmNkobGC4" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Aim, throw your best shot right at me</verso>
+								<verso>Cause pain, I can take it easily</verso>
+								<verso>Did you really think I'd fall to my knees</verso>
+								<verso>Just to pray for some sweet simplicity?</verso>
+							</quadra>
+							<quadra>
+								<verso>Cause woah, you're squeezing my heart,</verso>
+								<verso>Too hard in your bare hands, they hold too tight</verso>
+								<verso>And woah the air is on fire,</verso>
+								<verso>This room feels electric, caught here in your sights</verso>
+							</quadra>
+							<quadra>
+								<verso>Power, power</verso>
+								<verso>I will never understand the power you were holding over me</verso>
+								<verso>Power, power</verso>
+								<verso>Oh you had it too long, yes you had it too long</verso>
+							</quadra>
+							<quadra>
+								<verso>Pain, just synapses firing in our brain</verso>
+								<verso>So when you cut me, cut me deep</verso>
+								<verso>Hurt the ones you love the most easily</verso>
+								<verso>Cause in time we show our Achilles's heels</verso>
+							</quadra>
+							<quadra>
+								<verso>And woah, you're squeezing my heart,</verso>
+								<verso>Too hard in your cold bare hands, they hold too tight</verso>
+								<verso>And woah the air is on fire,</verso>
+								<verso>This room feels electric, caught here in your sights</verso>
+							</quadra>
+							<quadra>
+								<verso>Power, power</verso>
+								<verso>I will never understand the power you were holding over me</verso>
+								<verso>Power, power</verso>
+								<verso>Oh you had it too long, yes you had it too long</verso>
+							</quadra>
+							<quadra>
+								<verso>If you're gonna hit me, hit me harder</verso>
+								<verso>(Hit me, hit me harder)</verso>
+								<verso>Cause you better knock me out the first time</verso>
+								<verso>And if you're gonna do this rip the plaster</verso>
+								<verso>(Do this rip the plaster)</verso>
+								<verso>If you're gonna hit me, hit me harder than this</verso>
+								<verso>Power, power</verso>
+								<verso>Blows my mind to think I ever let you hold it over me</verso>
+							</quadra>
+							<quadra>
+								<verso>Power, power</verso>
+								<verso>I will never understand the way I let you hold it over me</verso>
+								<verso>Power, power</verso>
+								<verso>Well you had it too long, yes you had it too long</verso>
+								<verso>Power, oh, oh, power, oh, oh, oh, oh, oh, oh, oh</verso>
+								<verso>Power, power</verso>
+								<verso>I let you have it too long, yes you had it too long</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Two Evils" duracao="226">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/15P9zM3pGP4yXO5wTKkJ7Z" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=pcqgF2CV_7Y" />
+						</links>
+						<generos>
+							<genero>Indie Rock</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>I'm the lesser of two evils</verso>
+								<verso>Or am I, am I tricking myself nice?</verso>
+								<verso>If I'm the lesser of two evils</verso>
+								<verso>Who's this man, who's this act I hide behind?</verso>
+							</quadra>
+							<quadra>
+								<verso>There are two ways to skin tonight</verso>
+								<verso>Let's see whose road gets there faster</verso>
+								<verso>This is a game, no wrongs, no right</verso>
+								<verso>Only a winner and a loser</verso>
+								<verso>You and I, oh you and I</verso>
+								<verso>We're not that different, you and I</verso>
+								<verso>Oh you and I, you and I</verso>
+								<verso>We're not that different, you and I</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh I'm the lesser of two evils</verso>
+								<verso>So keep looking</verso>
+								<verso>Just keep looking into my eyes</verso>
+								<verso>And as the lesser of two evils, it pays to</verso>
+								<verso>It pays to be the nice guy sometimes</verso>
+							</quadra>
+							<quadra>
+								<verso>There are two ways to skin tonight</verso>
+								<verso>Let's see whose road gets there faster</verso>
+								<verso>Here I am hiding in plain sight</verso>
+								<verso>If you're not careful you will lose her</verso>
+								<verso>You and I, you and I</verso>
+								<verso>We're not that different, you and I</verso>
+								<verso>Oh you and I, you and I</verso>
+								<verso>We're not that different, you and I</verso>
+							</quadra>
+							<quadra>
+								<verso>You and I, oh you and I</verso>
+								<verso>We're not that different, you and I</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Send Them Off!" duracao="200">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/2Pf6Lix1tixacmos5pvCOw" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=vn-6fiVkAcA" />
+						</links>
+						<generos>
+							<genero>Indie Rock</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>I've got demons running round in my head</verso>
+								<verso>And they feed on insecurities I have</verso>
+								<verso>Won't you lay your healing hands on my chest?</verso>
+								<verso>Let your ritual clean</verso>
+							</quadra>
+							<quadra>
+								<verso>Soak the ropes with your holy water</verso>
+								<verso>Tie me down as you read out the words</verso>
+							</quadra>
+							<quadra>
+								<verso>Set me free from my jealousy</verso>
+								<verso>Won't you exorcise my mind?</verso>
+								<verso>Won't you exorcise my mind?</verso>
+								<verso>I want to be free as I'll ever be</verso>
+								<verso>Exorcise my mind</verso>
+								<verso>Help me exorcise my mind</verso>
+							</quadra>
+							<quadra>
+								<verso>Desdemona, won't you liberate me?</verso>
+								<verso>When I'm haunted by your ancient history</verso>
+								<verso>Close these green eyes and watch over as I sleep</verso>
+								<verso>Through my darkest of dreams</verso>
+							</quadra>
+							<quadra>
+								<verso>Be the power to compel me?</verso>
+								<verso>Hold me closer than anyone before</verso>
+							</quadra>
+							<quadra>
+								<verso>Set me free from my jealousy</verso>
+								<verso>Won't you exorcise my mind?</verso>
+								<verso>Won't you exorcise my mind?</verso>
+								<verso>I want to be free as I'll ever be</verso>
+								<verso>Exorcise my mind</verso>
+								<verso>Help me exorcise my mind</verso>
+							</quadra>
+							<quadra>
+								<verso>I should be thinking about nothing else when I'm with you, you</verso>
+								<verso>With you, you, ooh</verso>
+								<verso>I should be thinking about nothing else when I'm with you, you</verso>
+								<verso>With you, you, ooh</verso>
+							</quadra>
+							<quadra>
+								<verso>"Your mind exists somewhere altogether different. It lives in a world where feelings simply cannot be defined by words."</verso>
+							</quadra>
+							<quadra>
+								<verso>Set me free from my jealousy</verso>
+								<verso>Won't you exorcise my mind?</verso>
+								<verso>Won't you exorcise my mind?</verso>
+								<verso>I want to be free as I'll ever be</verso>
+								<verso>Exorcise my mind</verso>
+								<verso>Help me exorcise my mind</verso>
+							</quadra>
+							<quadra>
+								<verso>Help me exorcise my mind</verso>
+								<verso>Won't you exorcise my mind?</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Lethargy" duracao="224">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/3QVGEHyj4IhoDkiFHktzvT" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=crp-pYZlHZc" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Indie Rock</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Lethargy got a hold of me</verso>
+								<verso>And I don't know how to shake it</verso>
+								<verso>Got these itchy feet for a change of scene</verso>
+								<verso>Do anything to escape it</verso>
+							</quadra>
+							<quadra>
+								<verso>Get up, get up, pressure, pressure</verso>
+								<verso>Run away as fast as you can go</verso>
+								<verso>Everyday our friends and lovers</verso>
+								<verso>Give the answers everybody knows</verso>
+							</quadra>
+							<quadra>
+								<verso>You told me not to be like anybody else</verso>
+								<verso>Headspin, happiness, death</verso>
+								<verso>Be like anybody else</verso>
+								<verso>Broke down, nothing else left</verso>
+							</quadra>
+							<quadra>
+								<verso>You checked out years ago</verso>
+								<verso>Oh what I'd do not to worry like you</verso>
+								<verso>You checked out years ago</verso>
+								<verso>Oh what I'd do not to worry like you</verso>
+							</quadra>
+							<quadra>
+								<verso>"C'mon, relax"</verso>
+							</quadra>
+							<quadra>
+								<verso>There's an English man up in space these days</verso>
+								<verso>Floating in awe and wonder</verso>
+								<verso>As he broke away from the atmosphere</verso>
+								<verso>From all of us non believers</verso>
+							</quadra>
+							<quadra>
+								<verso>Get up, get up, pressure, pressure</verso>
+								<verso>Run away as fast as you can go</verso>
+								<verso>Everyday our friends and lovers</verso>
+								<verso>Give the answers everybody knows</verso>
+							</quadra>
+							<quadra>
+								<verso>You told me not to be like anybody else</verso>
+								<verso>Headspin, happiness, death</verso>
+								<verso>Be like anybody else</verso>
+								<verso>Broke down, nothing else left</verso>
+							</quadra>
+							<quadra>
+								<verso>You checked out years ago</verso>
+								<verso>Oh what I'd do not to worry like you</verso>
+								<verso>You checked out years ago</verso>
+								<verso>Oh what I'd do not to worry like you</verso>
+							</quadra>
+							<quadra>
+								<verso>Paint the scene for me</verso>
+								<verso>Paint it bright and paint it clear</verso>
+								<verso>I don't want to use my imagination here</verso>
+								<verso>Don't want to use my imagination here</verso>
+								<verso>Paint the scene for me</verso>
+								<verso>Paint it bright and paint it clear</verso>
+								<verso>I don't want to use my imagination here</verso>
+								<verso>Don't want to use my imagination here</verso>
+							</quadra>
+							<quadra>
+								<verso>You told me not to be like anybody else</verso>
+								<verso>Headspin, happiness, death</verso>
+								<verso>Be like anybody else</verso>
+								<verso>Broke down, nothing else left</verso>
+							</quadra>
+							<quadra>
+								<verso>You checked out years ago</verso>
+								<verso>Oh what I'd do not to worry like you</verso>
+								<verso>You checked out years ago</verso>
+								<verso>Oh what I'd do not to worry like you</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Four Walls (The Ballad Of Perry Smith)" duracao="254">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/1Lczbl4rrFN91IcyidUqqC" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=TUdbuK_7lUE" />
+						</links>
+						<generos>
+							<genero>Indie Rock</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>These four walls to keep you</verso>
+								<verso>One floor to sleep upon and only</verso>
+								<verso>These four walls to keep you</verso>
+								<verso>These four walls contain you</verso>
+								<verso>Supposed to save you from yourself and</verso>
+								<verso>These four walls in Holcomb</verso>
+								<verso>To keep you from the sun</verso>
+							</quadra>
+							<quadra>
+								<verso>And now we're faced with two wrongs</verso>
+								<verso>Now we're faced with two wrongs</verso>
+								<verso>I don't know, oh, I don't know</verso>
+								<verso>Now we're faced with two wrongs</verso>
+								<verso>Now we're faced with two wrongs</verso>
+								<verso>I don't know, oh, I don't know</verso>
+							</quadra>
+							<quadra>
+								<verso>We could be born to anything and now, and now</verso>
+								<verso>What you have done is terrible</verso>
+								<verso>And now you, and now you</verso>
+								<verso>Now you carry it with you</verso>
+								<verso>You carry it with you</verso>
+								<verso>You carry it with you</verso>
+							</quadra>
+							<quadra>
+								<verso>These four walls will keep you</verso>
+								<verso>Until you face the rope</verso>
+								<verso>You've only these four walls before they, </verso>
+								<verso>in cold blood, hang you up</verso>
+							</quadra>
+							<quadra>
+								<verso>And now we're faced with two wrongs</verso>
+								<verso>Now we're faced with two wrongs</verso>
+								<verso>I don't know, oh, I don't know</verso>
+								<verso>Now we're faced with two wrongs</verso>
+								<verso>Now we're faced with two wrongs</verso>
+								<verso>I don't know, oh, I don't know</verso>
+							</quadra>
+							<quadra>
+								<verso>We could be born to anything and now, and now</verso>
+								<verso>What you have done is terrible</verso>
+								<verso>And now you, and now you</verso>
+								<verso>Now you carry it with you</verso>
+								<verso>You carry it with you</verso>
+								<verso>You carry it with you</verso>
+								<verso>(Now you carry it with you</verso>
+								<verso>Carry it with you</verso>
+								<verso>Carry it with you)</verso>
+							</quadra>
+							<quadra>
+								<verso>There's no view from here, </verso>
+								<verso>no view from here, no view from here</verso>
+								<verso>All you see's the sky</verso>
+								<verso>Clouds passing by, clouds passing by</verso>
+							</quadra>
+							<quadra>
+								<verso>We could be born to anything and now, and now</verso>
+								<verso>What you have done is terrible</verso>
+								<verso>And now, and now</verso>
+								<verso>Now you carry it with you</verso>
+								<verso>You carry it with you</verso>
+								<verso>You carry it with you</verso>
+								<verso>Now you carry it with you</verso>
+								<verso>You carry it with you</verso>
+								<verso>You carry it with you</verso>
+							</quadra>
+							<quadra>
+								<verso>Now you carry it with you</verso>
+								<verso>You carry it with you</verso>
+								<verso>You carry it with you</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Blame" duracao="235">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0Cl5kShLrsbvLxuwfIBEnT" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=nAGEtmnXsiY" />
+						</links>
+						<generos>
+							<genero>Indie Rock</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>You go sleep with the fishes</verso>
+								<verso>There’s no room for you here</verso>
+								<verso>There’s no room for you here</verso>
+								<verso>Wrap your teeth around the pavement</verso>
+								<verso>'Cause your body’s a message</verso>
+								<verso>Send my regards to hell</verso>
+							</quadra>
+							<quadra>
+								<verso>Fall upon your knees saying</verso>
+								<verso>"This is my body and soul here"</verso>
+								<verso>Fall and begging, pleading</verso>
+								<verso>"You’ve got the power and control"</verso>
+								<verso>Don’t pin it all on me</verso>
+								<verso>Don’t pin it all on me</verso>
+							</quadra>
+							<quadra>
+								<verso>You’ve been granted three wishes</verso>
+								<verso>Say goodbye to your mother, your father, your son</verso>
+								<verso>I can hear your pulse racing from here</verso>
+								<verso>Sitting next to this gun beats your heart in your mouth</verso>
+							</quadra>
+							<quadra>
+								<verso>Fall upon your knees saying</verso>
+								<verso>"This is my body and soul here"</verso>
+								<verso>Fall and begging, pleading</verso>
+								<verso>"You’ve got the power and control"</verso>
+								<verso>Don’t pin it all on me</verso>
+								<verso>Don’t pin it all on me</verso>
+							</quadra>
+							<quadra>
+								<verso>Don't blame, blame, blame (I got you, I got you)</verso>
+								<verso>Oh blame, blame, blame (I got you, I got you)</verso>
+								<verso>Oh blame, blame, blame (I got you, I got you)</verso>
+								<verso>Oh blame, blame, blame (I got you, I got you)</verso>
+							</quadra>
+							<quadra>
+								<verso>Fall upon your knees saying</verso>
+								<verso>"This is my body and soul here"</verso>
+								<verso>Fall and begging, pleading</verso>
+								<verso>"You’ve got the power and control here"</verso>
+								<verso>This is my body, this is my soul</verso>
+								<verso>Fall upon your knees saying</verso>
+								<verso>"This is my body and soul"</verso>
+							</quadra>
+							<quadra>
+								<verso>Don’t pin it all on me</verso>
+								<verso>Don’t pin it all on me</verso>
+							</quadra>						
+						</letra>
+					</faixa>
+					<faixa titulo="Fake It" duracao="244">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/5qS17rR9HlqZvbQwssTzlX" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=GIwyqsqHsic" />
+						</links>
+						<generos>
+							<genero>Eletro Pop</genero>
+							<genero>Alternative Dance</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>And I don't think that that's a selfish want, I really don't. I'm not saying that I have this capacity because it's hard to develop that capacity on your own, when you're being stopped at every turn.</verso>
+							</quadra>
+							<quadra>
+								<verso>Drive around, night time, nowhere to go</verso>
+								<verso>Melt me down, I'm like wax to your jokes</verso>
+								<verso>Lost and found, knocking heads, laying low</verso>
+								<verso>And there's no point reliving crimes to lose this</verso>
+							</quadra>
+							<quadra>
+								<verso>Still wanna waste all of my time</verso>
+								<verso>I wanna waste all of my time</verso>
+								<verso>Still wanna waste all of my time</verso>
+								<verso>I wanna waste all of my time</verso>
+								<verso>With you</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh my lover, my lover, my love</verso>
+								<verso>We can never go back</verso>
+								<verso>We can only do our best to recreate</verso>
+								<verso>Don't turn over, turn over the page</verso>
+								<verso>We should rip it straight out</verso>
+								<verso>Then let's try our very best to fake it</verso>
+							</quadra>
+							<quadra>
+								<verso>Show me joy, flower through disarray</verso>
+								<verso>Let's destroy, each mistake that we made</verso>
+								<verso>Then restore color back to the grey</verso>
+								<verso>There's no pride in sharing scars to prove it</verso>
+							</quadra>
+							<quadra>
+								<verso>Still wanna waste all of my time</verso>
+								<verso>I wanna waste all of my time</verso>
+								<verso>Still wanna waste all of my time</verso>
+								<verso>I wanna waste all of my time</verso>
+								<verso>With you</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh my lover, my lover, my love</verso>
+								<verso>We can never go back</verso>
+								<verso>We can only do our best to recreate</verso>
+								<verso>Don't turn over, turn over the page</verso>
+								<verso>We should rip it straight out</verso>
+								<verso>Then let's try our very best to fake it</verso>
+							</quadra>
+							<quadra>
+								<verso>Help me turn a blind eye</verso>
+								<verso>Days and nights we lost to weakness</verso>
+								<verso>Help me turn a blind eye</verso>
+								<verso>Days and nights we lost to weakness</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh my lover, my lover, my love</verso>
+								<verso>We can never go back</verso>
+								<verso>We can only do our best to recreate</verso>
+								<verso>So, don't turn over, turn over the page</verso>
+								<verso>We should rip it straight out</verso>
+								<verso>Then let's do our very best to fake it</verso>
+								<verso>Oh my lover, my lover, my love</verso>
+								<verso>We can never go back</verso>
+								<verso>We can only do our best to recreate</verso>
+								<verso>Don't turn over, turn over the page</verso>
+								<verso>We should rip it straight out</verso>
+								<verso>Then let's do our very best to fake it</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixas>
+					<faixa titulo="Snakes" duracao="197">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/5g1EONU0jM4TuTznKxGirt" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=L7g_E_rJc40" />
+						</links>
+						<generos>
+							<genero>Indie Pop</genero>
+							<genero>Synth Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>Ooh, I'm not ready</verso>
+								<verso>Ooh, I'm not ready</verso>
+								<verso>Ooh, I'm not ready</verso>
+								<verso>Ooh, I'm not ready</verso>
+							</quadra>
+							<quadra>
+								<verso>Snakes are biting at my heels</verso>
+								<verso>The worries that refuse to let us go</verso>
+								<verso>I’ve been kicking them away</verso>
+								<verso>Been hoping not to let them take control</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh, I’m not ready</verso>
+								<verso>Drink to escape their bites</verso>
+								<verso>Show me distraction</verso>
+								<verso>Even for just one night</verso>
+							</quadra>
+							<quadra>
+								<verso>'Cause it's easier to bury</verso>
+								<verso>My head in the sand sometimes</verso>
+								<verso>Yes, it's easier to bury</verso>
+								<verso>My head in the sand sometimes</verso>
+								<verso>And I know, I know, I know</verso>
+								<verso>It's not the right way to go</verso>
+								<verso>But I pray for the ground to swallow me whole</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh, I'm not ready</verso>
+								<verso>Ooh, I'm not ready</verso>
+							</quadra>
+							<quadra>
+								<verso>Now these days are feeling dark</verso>
+								<verso>We're struggling to figure out last year</verso>
+								<verso>When the woman on the news keeps saying things that no one wants to hear</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh, I’m not ready</verso>
+								<verso>Drink to escape our minds</verso>
+								<verso>Show me distraction</verso>
+								<verso>Even for just one night</verso>
+							</quadra>
+							<quadra>
+								<verso>'Cause it's easier to bury</verso>
+								<verso>My head in the sand sometimes</verso>
+								<verso>Yes, it's easier to bury</verso>
+								<verso>My head in the sand sometimes</verso>
+								<verso>And I know, I know, I know</verso>
+								<verso>It's not the right way to go</verso>
+								<verso>But I pray for the ground to swallow me whole </verso>
+								<verso>Yes, I pray for the ground to swallow me whole</verso>
+							</quadra>
+							<quadra>
+								<verso>Ooh, I'm not ready</verso>
+								<verso>Ooh, I'm not ready</verso>
+							</quadra>
+							<quadra>
+								<verso>"Come on, boys. Let's go tear this place apart!"</verso>
+							</quadra>
+							<quadra>
+								<verso>'Cause I know, 'cause I know life is simple when</verso>
+								<verso>I can just ignore it all</verso>
+								<verso>'Cause I know, 'cause I know, 'cause I know</verso>
+								<verso>Life is simple when</verso>
+								<verso>I can just ignore it all</verso>
+								<verso>'Cause I know, 'cause I know, 'cause I know</verso>
+							</quadra>
+							<quadra>
+								<verso>If I’m not ready</verso>
+								<verso>Snakes will consume me whole</verso>
+								<verso>If I'm not steady</verso>
+								<verso>Baby they'll take control</verso>
+							</quadra>
+							<quadra>
+								<verso>But it's easier to bury</verso>
+								<verso>My head in the sand sometimes</verso>
+								<verso>Yes, it's easier to bury</verso>
+								<verso>My head in the sand sometimes</verso>
+								<verso>I know, I know, I know</verso>
+								<verso>It's not the right way to go</verso>
+								<verso>But I pray for the ground to swallow me whole</verso>
+								<verso>Yes, I know, I know, I know</verso>
+								<verso>It's not the right way to go</verso>
+								<verso>But I pray for the ground to swallow me whole</verso>
+							</quadra>
+						</letra>
+					</faixa>
+					<faixa titulo="Winter of our Youth" duracao="203">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="https://open.spotify.com/track/0orRfRjSE3h7vOEdQ4VSPH" />
+							<link site="YouTube" logo="youtube.jpg" url="https://www.youtube.com/watch?v=5XBtTa1E94M" />
+						</links>
+						<generos>
+							<genero>Indie Rock</genero>
+							<genero>Indie Pop</genero>
+						</generos>
+						<letra>
+							<quadra>
+								<verso>"So the question is, why doesn't he grow up</verso>
+								<verso>Why does he still behave as a child</verso>
+								<verso>How can we help him get rid of these</verso>
+								<verso>leftovers from childish behavior"</verso>
+							</quadra>
+							<quadra>
+								<verso>This is the winter of our youth</verso>
+								<verso>Oh but I'm not there yet</verso>
+								<verso>I've got nostalgia running through me</verso>
+								<verso>And I don't like it</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh my, my, my, my</verso>
+								<verso>Now I can almost taste it, taste it</verso>
+								<verso>But I just hope we didn't waste it away</verso>
+							</quadra>
+							<quadra>
+								<verso>I know the winter's getting colder</verso>
+								<verso>But why, just 'cause we're a little older </verso>
+								<verso>Do I relive it, I relive it all?</verso>
+								<verso>Oh, I'm pedaling backwards</verso>
+								<verso>Even if I'm pedaling alone</verso>
+								<verso>Can't help it</verso>
+								<verso>I relive it, I relive it all</verso>
+							</quadra>
+							<quadra>
+								<verso>It's 4AM here comes the fear</verso>
+								<verso>I'm not prepared yet</verso>
+								<verso>And when we pick over the past we glorify it</verso>
+							</quadra>
+							<quadra>
+								<verso>Oh my, my, my, my</verso>
+								<verso>I hope I wasn't wasted, wasted</verso>
+								<verso>I hope I didn't drink it away</verso>
+							</quadra>
+							<quadra>
+								<verso>I know the winter's getting colder</verso>
+								<verso>But why, just cause we're a little older </verso>
+								<verso>Do I relive it, I relive it all?</verso>
+								<verso>Oh, I'm pedaling backwards</verso>
+								<verso>Even if I'm pedaling alone</verso>
+								<verso>Can't help it</verso>
+								<verso>I relive it, I relive it all</verso>
+							</quadra>
+							<quadra>
+								<verso>I let myself bathe in the past for way, way, way too long</verso>
+								<verso>And now it seems that I've drunk too much to give you what you want</verso>
+							</quadra>
+							<quadra>
+								<verso>I know the winter's getting colder</verso>
+								<verso>But why, just cause we're a little older </verso>
+								<verso>Do I relive it, I relive it all?</verso>
+								<verso>Oh, I'm pedaling backwards</verso>
+								<verso>Even if I'm pedaling alone</verso>
+								<verso>Can't help it</verso>
+								<verso>I relive it, I relive it all</verso>
+							</quadra>
+							<quadra>
+								<verso>Can't help it</verso>
+								<verso>I relive it, I relive it all</verso>
+								<verso>Can't help it</verso>
+								<verso>I relive it, I relive it all</verso>
+								<verso>Oh, I'm pedaling backwards</verso>
+								<verso>Even if I'm pedaling alone</verso>
+								<verso>Can't help it</verso>
+								<verso>I relive it, I relive it all</verso>
+							</quadra>
+						</letra>
+					</faixa>
+				</faixas>
+			</album>
+		</discografia>
+		<biografia>
+			<par>
+			Bastille (stylised as BΔSTILLE) are a British indie pop band formed in 2010. The group began as a solo project by lead vocalist Dan Smith,
+			but later expanded to include keyboardist Kyle Simmons, bassist and guitarist Will Farquarson, and drummer Chris Wood. The name of the band derives
+			from Bastille Day, which is celebrated on 14 July, the date of Smith's birthday.
+			</par>
+			<par>
+			After an independently released debut single and a self-released EP, the band signed to Virgin Records. Their first studio album, Bad Blood, was released
+			in March 2013 and entered the UK Albums Chart at number one. The band was nominated for four Brit Awards at the 2014 ceremony, winning the British Breakthrough Act.
+			As of November 2014, Bastille have sold over 5 million records in the US and 2.5 million records in the UK.
+			</par>
+		</biografia>
+	</banda>
+</bandas>
+
+<!--
+	<banda nome="" imagem="">
+		<links>
+			<link site="Wikipedia" logo="wikipediaLogo.jpg" url="" />
+			<link site="YouTube" logo="youtube.jpg" url="" />
+		</links>
+		<membros>
+			<membro nome="" foto="" dataEntrada="" dataSaida="">
+				<funcao>funcao</funcao>
+			<membro>
+		</membros>
+		<discografia>
+			<album titulo="" imagem="" ano="" editora="">
+				<links>
+					<link site="Amazon" logo="amazonLogo.jpg" url="" />
+					<link site="iTunes" logo="iTunes.jpg" url="" />
+				</links>
+				<faixas>
+					<faixa titulo="" duracao="">
+						<links>
+							<link site="Spotify" logo="spotify.jpg" url="" />
+							<link site="YouTube" logo="youtube.jpg" url="" />
+						</links>
+						<generos>
+							<genero>genero</genero>
+						</generos>
+						<letra>
+						</letra>
+					</faixa>
+				</faixas>
+			</album>
+		</discografia>
+		<biografia>
+			<par>bioPar</par>
+		</biografia>
+	</banda>
+-->

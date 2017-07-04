@@ -7,6 +7,8 @@ namespace TI2_proj.Models
         [Key]
         public int idArtista { get; set; }
 
+        public string Img { get; set; }
+
         [Required]
         [StringLength(30)]
         public string nome { get; set; }
