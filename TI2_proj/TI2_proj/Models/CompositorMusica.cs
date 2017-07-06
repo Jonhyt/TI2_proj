@@ -9,13 +9,14 @@ namespace TI2_proj.Models
         //muitos para muitos entre as musicas e os seus compositores
         //("Compositores" são artistas)
 
+        [Key]
+        public int ComMusID { set; get; }
+
         public Musicas Musica { get; set; }
-        [Key, Column(Order = 0)]
         [ForeignKey("Musica")]
         public int MusicaFK { get; set; }
 
         public Artista Compositor { get; set; }
-        [Key, Column(Order = 1)]
         [ForeignKey("Compositor")]
         public int CompositorFK { get; set; }
     }

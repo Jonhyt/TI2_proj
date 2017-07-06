@@ -11,13 +11,14 @@ namespace TI2_proj.Models
     {
         //Tabela que relaciona Musicas a generos
 
+        [Key]
+        public int MusGenID { get; set; }
+
         public Musicas Musica { get; set; }
-        [Key,Column(Order =0)]
         [ForeignKey("Musica")]
         public int MusicaFK { get; set; }
 
         public Mood Mood { get; set; }
-        [Key, Column(Order = 1)]
         [ForeignKey("Mood")]
         public int MoodFK { get; set; }
 

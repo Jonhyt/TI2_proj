@@ -1,11 +1,8 @@
 namespace TI2_proj.Migrations
 {
     using Models;
-    using System;
     using System.Collections.Generic;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
     internal sealed class Configuration : DbMigrationsConfiguration<TI2_proj.Models.MusicasDB>
     {
@@ -19,19 +16,6 @@ namespace TI2_proj.Migrations
             //  This method will be called after migrating to the latest version.
 
             //----------------------------------------------------------
-            //Album
-            var albuns = new List<Album>
-            {
-                new Album { AlbumId = 1, Titulo = "Live and Let Die", AutorFK = 11, EditFK=1},
-                new Album { AlbumId = 2, Titulo = "Revolver", AutorFK = 1, EditFK=2},
-                new Album { AlbumId = 3, Titulo = "Dá-me um segundo", AutorFK = 11, EditFK=3},
-                new Album { AlbumId = 4, Titulo = "Illuminate", AutorFK = 15, EditFK=4},
-                new Album { AlbumId = 5, Titulo = "This is Acting", AutorFK = 16, EditFK=5},
-                new Album { AlbumId = 6, Titulo = "Girl", AutorFK = 16, EditFK=6}
-            };
-
-            albuns.ForEach(alb => context.Album.AddOrUpdate());
-            context.SaveChanges();
             //--------------------------------------------------------
             //Artistas a adicionar
             var artistas = new List<Artista>
@@ -58,59 +42,28 @@ namespace TI2_proj.Migrations
                 //adicionar artistas
             };
 
-            artistas.ForEach(art => context.Artista.AddOrUpdate());
-            context.SaveChanges();
-
-            //Ligar as musicas aos artistas que as atuam
-            var musicaArtista = new List<ArtistaMusica>
-            {
-                new ArtistaMusica {ArtistaFK=1,MusicaFK=1 },
-                new ArtistaMusica {ArtistaFK=6,MusicaFK=2 },
-                new ArtistaMusica {ArtistaFK=11,MusicaFK=3 },
-                new ArtistaMusica {ArtistaFK=15,MusicaFK=4 },
-                new ArtistaMusica {ArtistaFK=16,MusicaFK=5 },
-                new ArtistaMusica {ArtistaFK=17,MusicaFK=5 },
-                new ArtistaMusica {ArtistaFK=18,MusicaFK=6 },
-
-            };
-
-            musicaArtista.ForEach(ma => context.ArtistaMusica.AddOrUpdate());
+            artistas.ForEach(art => context.Artista.AddOrUpdate(a => a.idArtista, art));
             context.SaveChanges();
 
             //Ligar artistas às suas bandas
             var bandas = new List<Bandas>
             {
-                new Bandas {BandaFK=1,MembroFK=2 },
-                new Bandas {BandaFK=1,MembroFK=3 },
-                new Bandas {BandaFK=1,MembroFK=4 },
-                new Bandas {BandaFK=1,MembroFK=5 },
-                new Bandas {BandaFK=6,MembroFK=2 },
-                new Bandas {BandaFK=6,MembroFK=7 },
-                new Bandas {BandaFK=6,MembroFK=8 },
-                new Bandas {BandaFK=6,MembroFK=9 },
-                new Bandas {BandaFK=6,MembroFK=10 },
-                new Bandas {BandaFK=11,MembroFK=12 },
-                new Bandas {BandaFK=11,MembroFK=13 },
-                new Bandas {BandaFK=11,MembroFK=14 },
+                new Bandas {BandaID=1,BandaFK=1,MembroFK=2 },
+                new Bandas {BandaID=2,BandaFK=1,MembroFK=3 },
+                new Bandas {BandaID=3,BandaFK=1,MembroFK=4 },
+                new Bandas {BandaID=4,BandaFK=1,MembroFK=5 },
+                new Bandas {BandaID=5,BandaFK=6,MembroFK=2 },
+                new Bandas {BandaID=6,BandaFK=6,MembroFK=7 },
+                new Bandas {BandaID=5,BandaFK=6,MembroFK=8 },
+                new Bandas {BandaID=7,BandaFK=6,MembroFK=9 },
+                new Bandas {BandaID=8,BandaFK=6,MembroFK=10 },
+                new Bandas {BandaID=9,BandaFK=11,MembroFK=12 },
+                new Bandas {BandaID=10,BandaFK=11,MembroFK=13 },
+                new Bandas {BandaID=11,BandaFK=11,MembroFK=14 },
 
             };
 
-            bandas.ForEach(b => context.Bandas.AddOrUpdate());
-            context.SaveChanges();
-
-            //Ligar musicas aos seus compositores
-            var compositores = new List<CompositorMusica>
-            {
-                new CompositorMusica {MusicaFK=1,CompositorFK=2},
-                new CompositorMusica {MusicaFK=1,CompositorFK=7},
-                new CompositorMusica {MusicaFK=2,CompositorFK=2},
-                new CompositorMusica {MusicaFK=3,CompositorFK=11},
-                new CompositorMusica {MusicaFK=4,CompositorFK=15},
-                new CompositorMusica {MusicaFK=5,CompositorFK=16},
-                new CompositorMusica {MusicaFK=6,CompositorFK=18}
-            };
-
-            compositores.ForEach(c => context.CompositorMusica.AddOrUpdate());
+            bandas.ForEach(b => context.Bandas.AddOrUpdate(bb => bb.BandaID, b));
             context.SaveChanges();
 
             //Adicionar editoras
@@ -124,7 +77,7 @@ namespace TI2_proj.Migrations
                 new Editora {EditoraId=6,Nome="i Am Other" }
             };
 
-            editoras.ForEach(e => context.Editora.AddOrUpdate());
+            editoras.ForEach(e => context.Editora.AddOrUpdate(ee => ee.EditoraId, e));
             context.SaveChanges();
 
             //Genero
@@ -136,7 +89,21 @@ namespace TI2_proj.Migrations
                 new Genero { GeneroID=3,Nome="R&B"}
             };
 
-            generos.ForEach(g => context.Genero.AddOrUpdate());
+            generos.ForEach(g => context.Genero.AddOrUpdate(gg => gg.GeneroID,g));
+            context.SaveChanges();
+
+            //Album
+            var albuns = new List<Album>
+            {
+                new Album { AlbumId = 1, Titulo = "Live and Let Die", AutorFK = 11, EditFK=1},
+                new Album { AlbumId = 2, Titulo = "Revolver", AutorFK = 1, EditFK=2},
+                new Album { AlbumId = 3, Titulo = "Dá-me um segundo", AutorFK = 11, EditFK=3},
+                new Album { AlbumId = 4, Titulo = "Illuminate", AutorFK = 15, EditFK=4},
+                new Album { AlbumId = 5, Titulo = "This is Acting", AutorFK = 16, EditFK=5},
+                new Album { AlbumId = 6, Titulo = "Girl", AutorFK = 16, EditFK=6}
+            };
+
+            albuns.ForEach(alb => context.Album.AddOrUpdate(a => a.AlbumId, alb));
             context.SaveChanges();
 
             //Mood
@@ -149,41 +116,7 @@ namespace TI2_proj.Migrations
                 new Mood { MoodID=5,Nome="Melancolia"}
             };
 
-            moods.ForEach(m => context.Mood.AddOrUpdate());
-            context.SaveChanges();
-
-            //Ligar musicas a generos
-            var musicaGenero = new List<MusicaGenero>
-            {
-                new MusicaGenero { MusicaFK=1,GeneroFK=1},
-                new MusicaGenero { MusicaFK=2,GeneroFK=1},
-                new MusicaGenero { MusicaFK=2,GeneroFK=2},
-                new MusicaGenero { MusicaFK=3,GeneroFK=2},
-                new MusicaGenero { MusicaFK=3,GeneroFK=3},
-                new MusicaGenero { MusicaFK=4,GeneroFK=2},
-                new MusicaGenero { MusicaFK=5,GeneroFK=2},
-                new MusicaGenero { MusicaFK=6,GeneroFK=2},
-                new MusicaGenero { MusicaFK=6,GeneroFK=4}
-            };
-
-            musicaGenero.ForEach(mg => context.MusicaGenero.AddOrUpdate());
-            context.SaveChanges();
-
-            //Ligar musicas a emoções
-            var musicaMood = new List<MusicaMood>
-            {
-                new MusicaMood { MusicaFK=1,MoodFK=1},
-                new MusicaMood { MusicaFK=1,MoodFK=2},
-                new MusicaMood { MusicaFK=2,MoodFK=3},
-                new MusicaMood { MusicaFK=3,MoodFK=1},
-                new MusicaMood { MusicaFK=4,MoodFK=3},
-                new MusicaMood { MusicaFK=5,MoodFK=4},
-                new MusicaMood { MusicaFK=5,MoodFK=5},
-                new MusicaMood { MusicaFK=6,MoodFK=4}
-
-            };
-
-            musicaMood.ForEach(mm => context.MusicaMood.AddOrUpdate());
+            moods.ForEach(m => context.Mood.AddOrUpdate(mm => mm.MoodID,m));
             context.SaveChanges();
 
             //Adicionar musicas
@@ -197,6 +130,75 @@ namespace TI2_proj.Migrations
                 new Musicas {MusicaID=6,Titulo="Happy",Duracao=333,NumFaixa=5,AlbumFK=6},
 
             };
+
+            musicas.ForEach(mm => context.Musicas.AddOrUpdate(m => m.MusicaID, mm));
+            context.SaveChanges();
+
+
+            //Ligar musicas aos seus compositores
+            var compositores = new List<CompositorMusica>
+            {
+                new CompositorMusica {ComMusID=1, MusicaFK=1,CompositorFK=2},
+                new CompositorMusica {ComMusID=2,MusicaFK=1,CompositorFK=7},
+                new CompositorMusica {ComMusID=3,MusicaFK=2,CompositorFK=2},
+                new CompositorMusica {ComMusID=4,MusicaFK=3,CompositorFK=11},
+                new CompositorMusica {ComMusID=5,MusicaFK=4,CompositorFK=15},
+                new CompositorMusica {ComMusID=6,MusicaFK=5,CompositorFK=16},
+                new CompositorMusica {ComMusID=7,MusicaFK=6,CompositorFK=18}
+            };
+
+            compositores.ForEach(c => context.CompositorMusica.AddOrUpdate(cm => cm.ComMusID, c));
+            context.SaveChanges();
+
+            //Ligar as musicas aos artistas que as atuam
+            var musicaArtista = new List<ArtistaMusica>
+            {
+                new ArtistaMusica {ArtMusId=1,ArtistaFK=1,MusicaFK=1 },
+                new ArtistaMusica {ArtMusId=2,ArtistaFK=6,MusicaFK=2 },
+                new ArtistaMusica {ArtMusId=3,ArtistaFK=11,MusicaFK=3 },
+                new ArtistaMusica {ArtMusId=4,ArtistaFK=15,MusicaFK=4 },
+                new ArtistaMusica {ArtMusId=5,ArtistaFK=16,MusicaFK=5 },
+                new ArtistaMusica {ArtMusId=6,ArtistaFK=17,MusicaFK=5 },
+                new ArtistaMusica {ArtMusId=7,ArtistaFK=18,MusicaFK=6 },
+
+            };
+
+            musicaArtista.ForEach(ma => context.ArtistaMusica.AddOrUpdate(a => a.ArtMusId, ma));
+            context.SaveChanges();
+
+            //Ligar musicas a emoções
+            var musicaMood = new List<MusicaMood>
+            {
+                new MusicaMood { MusGenID=1,MusicaFK=1,MoodFK=1},
+                new MusicaMood { MusGenID=2,MusicaFK=1,MoodFK=2},
+                new MusicaMood { MusGenID=3,MusicaFK=2,MoodFK=3},
+                new MusicaMood { MusGenID=4,MusicaFK=3,MoodFK=1},
+                new MusicaMood { MusGenID=5,MusicaFK=4,MoodFK=3},
+                new MusicaMood { MusGenID=6,MusicaFK=5,MoodFK=4},
+                new MusicaMood { MusGenID=7,MusicaFK=5,MoodFK=5},
+                new MusicaMood { MusGenID=8,MusicaFK=6,MoodFK=4}
+
+            };
+
+            musicaMood.ForEach(mm => context.MusicaMood.AddOrUpdate(m => m.MusGenID, mm));
+            context.SaveChanges();
+
+            //Ligar musicas a generos
+            var musicaGenero = new List<MusicaGenero>
+            {
+                new MusicaGenero { MusGenID=1,MusicaFK=1,GeneroFK=1},
+                new MusicaGenero { MusGenID=2,MusicaFK=2,GeneroFK=1},
+                new MusicaGenero { MusGenID=3,MusicaFK=2,GeneroFK=2},
+                new MusicaGenero { MusGenID=4,MusicaFK=3,GeneroFK=2},
+                new MusicaGenero { MusGenID=5,MusicaFK=3,GeneroFK=3},
+                new MusicaGenero { MusGenID=6,MusicaFK=4,GeneroFK=2},
+                new MusicaGenero { MusGenID=7,MusicaFK=5,GeneroFK=2},
+                new MusicaGenero { MusGenID=8,MusicaFK=6,GeneroFK=2},
+                new MusicaGenero { MusGenID=9,MusicaFK=6,GeneroFK=4}
+            };
+
+            musicaGenero.ForEach(mg => context.MusicaGenero.AddOrUpdate(m => m.MusGenID, mg));
+            context.SaveChanges();
 
         }
     }
