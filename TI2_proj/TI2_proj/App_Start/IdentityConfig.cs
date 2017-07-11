@@ -10,6 +10,7 @@ using System.Collections.Generic;
 using System.Data.Entity;
 using System.Threading.Tasks;
 using System.Web;
+using TI2_proj.Models;
 
 namespace IdentitySample.Models
 {
