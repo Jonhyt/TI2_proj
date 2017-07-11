@@ -1,17 +1,20 @@
-namespace TI2_proj.Migrations
-{
-    using Models;
-    using System.Collections.Generic;
-    using System.Data.Entity.Migrations;
+using System.Collections.Generic;
+using System.Data.Entity.Migrations;
+using TI2_proj.Models;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<TI2_proj.Models.MusicasDB>
+namespace TI2_proj.Migrations
+
+{
+
+
+    internal sealed class Configuration : DbMigrationsConfiguration<Models.MusicasDB>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(TI2_proj.Models.MusicasDB context)
+        protected override void Seed(Models.MusicasDB context)
         {
             //  This method will be called after migrating to the latest version.
 
@@ -20,29 +23,29 @@ namespace TI2_proj.Migrations
             //Artistas a adicionar
             var artistas = new List<Artista>
             {
-                new Artista { idArtista = 1, nome = "The Beatles", banda = true},
-                new Artista { idArtista = 2, nome = "John Lennon", banda = false},
-                new Artista { idArtista = 3, nome = "Paul McCartney", banda = false},
-                new Artista { idArtista = 4, nome = "Ringo Starr", banda = false},
-                new Artista { idArtista = 5, nome = "George Harrison", banda = false},
-                new Artista { idArtista = 6, nome = "Wings", banda = true},
-                new Artista { idArtista = 7, nome = "Linda McCartney", banda = false},
-                new Artista { idArtista = 8, nome = "Denny Laine", banda = false},
-                new Artista { idArtista = 9, nome = "Henry McCullogh", banda = false},
-                new Artista { idArtista = 10, nome = "Denny Seiwell", banda = false},
-                new Artista { idArtista = 11, nome = "D.A.M.A", banda = true},
-                new Artista { idArtista = 12, nome = "Francisco Pereira", banda = false},
-                new Artista { idArtista = 13, nome = "Miguel Coimbra", banda = false},
-                new Artista { idArtista = 14, nome = "Miguel Cristovinho", banda = false},
-                new Artista { idArtista = 15, nome = "Shawn Mendes", banda = false},
-                new Artista { idArtista = 16, nome = "Sia", banda = false},
-                new Artista { idArtista = 17, nome = "Sean Paul", banda = false},
-                new Artista { idArtista = 18, nome = "Pharrell Williams", banda = false}
+                new Artista { ArtistaID = 1, Nome = "The Beatles", Banda = true},
+                new Artista { ArtistaID = 2, Nome = "John Lennon", Banda = false},
+                new Artista { ArtistaID = 3, Nome = "Paul McCartney", Banda = false},
+                new Artista { ArtistaID = 4, Nome = "Ringo Starr", Banda = false},
+                new Artista { ArtistaID = 5, Nome = "George Harrison", Banda = false},
+                new Artista { ArtistaID = 6, Nome = "Wings", Banda = true},
+                new Artista { ArtistaID = 7, Nome = "Linda McCartney", Banda = false},
+                new Artista { ArtistaID = 8, Nome = "Denny Laine", Banda = false},
+                new Artista { ArtistaID = 9, Nome = "Henry McCullogh", Banda = false},
+                new Artista { ArtistaID = 10, Nome = "Denny Seiwell", Banda = false},
+                new Artista { ArtistaID = 11, Nome = "D.A.M.A", Banda = true},
+                new Artista { ArtistaID = 12, Nome = "Francisco Pereira", Banda = false},
+                new Artista { ArtistaID = 13, Nome = "Miguel Coimbra", Banda = false},
+                new Artista { ArtistaID = 14, Nome = "Miguel Cristovinho", Banda = false},
+                new Artista { ArtistaID = 15, Nome = "Shawn Mendes", Banda = false},
+                new Artista { ArtistaID = 16, Nome = "Sia", Banda = false},
+                new Artista { ArtistaID = 17, Nome = "Sean Paul", Banda = false},
+                new Artista { ArtistaID = 18, Nome = "Pharrell Williams", Banda = false}
 
                 //adicionar artistas
             };
 
-            artistas.ForEach(art => context.Artista.AddOrUpdate(a => a.idArtista, art));
+            artistas.ForEach(art => context.Artista.AddOrUpdate(a => a.ArtistaID, art));
             context.SaveChanges();
 
             //Ligar artistas às suas bandas
