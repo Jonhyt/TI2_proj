@@ -1,0 +1,44 @@
+﻿@model TI2_proj.Models.Musicas
+
+@{
+    ViewBag.Title = "AdArtistas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Add Artists to @Html.DisplayFor(model => model.Titulo)</h2>
+<div class="form-group">
+    <form method="post">
+        @Html.AntiForgeryToken()
+    <div class="col-md-offset-2 col-md-10">
+        <table>
+            <tr>
+                @{
+                    int cnt = 0;
+                    List<TI2_proj.Models.Artista> artista = ViewBag.Artistas;
+
+                    foreach (var art in artista)
+                    {
+                        if (cnt++ % 3 == 0)
+                        {
+                            @:</tr><tr>
+                    }
+                        @:<td>
+                            <input type="checkbox"
+                                   name="selectedArt"
+                                   value="@art.ArtistaID"
+                                   @(Html.Raw(Model.Artistas.Select(a => a.ArtistaFK).Contains(art.ArtistaID) ? "checked=\"checked\"" : "")) />
+                                    @art.ArtistaID @:  @art.Nome
+                                    @:</td>
+                }
+                    @:</tr>
+                }
+            </table>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Update Artists" class="btn btn-default" />
+            </div>
+        </div>
+    </form>
+    </div>
+

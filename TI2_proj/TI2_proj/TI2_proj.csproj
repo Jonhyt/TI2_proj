@@ -407,6 +407,7 @@
     <Content Include="Views\MusicaMoods\Edit.cshtml" />
     <Content Include="Views\MusicaMoods\Index.cshtml" />
     <Content Include="Views\Home\Menu.cshtml" />
+    <Content Include="Views\Musicas\AdArtista.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

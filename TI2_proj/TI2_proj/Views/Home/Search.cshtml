@@ -6,7 +6,14 @@
 }
 
 <h2>Songs with same @ViewBag.sortAttr as @ViewBag.musicaId</h2>
-
+<form method="post">
+    <label>
+        Search by:
+    </label>
+    <input type="submit" value="mood" name="attr" />
+    <input type="submit" value="genero" name="attr" />
+    <input type="submit" value="compositor" name="attr" />
+</form>
 <table class="table">
     <tr>
         <th>

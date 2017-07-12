@@ -26,10 +26,11 @@ namespace IdentitySample.Controllers
             ViewBag.mEncontradas = db.Musicas.Where(m => m.Titulo.Contains(tags)).ToList();
             return View(musica.ToList());
         }
-        
-        public ActionResult Search(int id,string attr)
+
+        //[HttpPost]
+        public ActionResult Search(int id, string attr)
         {
-            IQueryable<Musicas> musica=null;
+            IQueryable<Musicas> musica = null;
             if (attr == "mood")
             {
                 musica = db.Musicas
