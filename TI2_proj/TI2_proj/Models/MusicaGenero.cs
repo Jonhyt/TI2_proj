@@ -13,8 +13,10 @@ namespace TI2_proj.Models
         [ForeignKey("Musica")]
         public int MusicaFK { get; set; }
 
-        public Musicas Genero { get; set; }
+        public Genero Genero { get; set; }
         [ForeignKey("Genero")]
         public int GeneroFK { get; set; }
+
+        public string Dono { get; set; }
     }
 }

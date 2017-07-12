@@ -1,0 +1,59 @@
+﻿@model IEnumerable<TI2_proj.Models.Musicas>
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Songs with same @ViewBag.sortAttr as @ViewBag.musicaId</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Titulo)
+        </th>
+        <th>
+            Album
+        </th>
+        <th>
+            Artist(s)
+        </th>
+        <th>
+            Composer(s)
+        </th>
+        <th>
+            Mood(s)
+        </th>
+        <th>
+            Genre(s)
+        </th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Album.Titulo)
+        </td>
+        <td>
+            @foreach (var art in item.Artistas)
+            { <p>@Html.DisplayFor(modelItem => art.Artista.Nome)</p>}
+        </td>
+        <td>
+            @foreach (var art in item.Compositores)
+            { <p>@Html.DisplayFor(modelItem => art.Compositor.Nome)</p>}
+        </td>
+        <td>
+            @foreach (var art in item.Moods)
+            { <p>@Html.DisplayFor(modelItem => art.Mood.Nome)</p>}
+        </td>
+        <td>
+            @foreach (var art in item.Generos)
+            { <p>@Html.DisplayFor(modelItem => art.Genero.Nome)</p>}
+        </td>
+    </tr>
+}
+
+</table>

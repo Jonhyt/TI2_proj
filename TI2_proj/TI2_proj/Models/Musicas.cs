@@ -28,11 +28,14 @@ namespace TI2_proj.Models
         [Required]
         public int Duracao { get; set; }
 
+        [Display(Name="Track Number")]
         public int NumFaixa { get; set; }
 
         public Album Album { get; set; }
         [ForeignKey("Album")]
         public int AlbumFK { get; set; }
+
+        public string Dono { get; set; }
 
         public virtual ICollection<ArtistaMusica> Artistas { get; set; }
         public virtual ICollection<MusicaMood> Moods { get; set; }

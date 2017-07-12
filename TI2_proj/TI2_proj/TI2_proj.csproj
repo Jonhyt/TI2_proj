@@ -271,10 +271,19 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AlbumsController.cs" />
+    <Compile Include="Controllers\ArtistaMusicasController.cs" />
+    <Compile Include="Controllers\ArtistasController.cs" />
+    <Compile Include="Controllers\BandasController.cs" />
+    <Compile Include="Controllers\CompositorMusicasController.cs" />
+    <Compile Include="Controllers\EditorasController.cs" />
+    <Compile Include="Controllers\GeneroesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MoodsController.cs" />
+    <Compile Include="Controllers\MusicaGeneroesController.cs" />
+    <Compile Include="Controllers\MusicaMoodsController.cs" />
+    <Compile Include="Controllers\MusicasController.cs" />
     <Compile Include="Controllers\RolesAdminController.cs" />
-    <Compile Include="Controllers\SearchController.cs" />
     <Compile Include="Controllers\UserAdminController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -306,12 +315,6 @@
     </Content>
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Albums\Create.cshtml" />
-    <Content Include="Views\Albums\Delete.cshtml" />
-    <Content Include="Views\Albums\Details.cshtml" />
-    <Content Include="Views\Albums\Edit.cshtml" />
-    <Content Include="Views\Albums\Index.cshtml" />
-    <Content Include="Views\Search\Index.cshtml" />
     <Content Include="Views\UsersAdmin\Index.cshtml" />
     <Content Include="Views\UsersAdmin\Edit.cshtml" />
     <Content Include="Views\UsersAdmin\Details.cshtml" />
@@ -347,6 +350,63 @@
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Account\DisplayEmail.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
+    <Content Include="Views\Albums\Create.cshtml" />
+    <Content Include="Views\Albums\Delete.cshtml" />
+    <Content Include="Views\Albums\Details.cshtml" />
+    <Content Include="Views\Albums\Edit.cshtml" />
+    <Content Include="Views\Albums\Index.cshtml" />
+    <Content Include="Views\Artistas\Create.cshtml" />
+    <Content Include="Views\Artistas\Delete.cshtml" />
+    <Content Include="Views\Artistas\Details.cshtml" />
+    <Content Include="Views\Artistas\Edit.cshtml" />
+    <Content Include="Views\Artistas\Index.cshtml" />
+    <Content Include="Views\Musicas\Create.cshtml" />
+    <Content Include="Views\Musicas\Delete.cshtml" />
+    <Content Include="Views\Musicas\Details.cshtml" />
+    <Content Include="Views\Musicas\Edit.cshtml" />
+    <Content Include="Views\Musicas\Index.cshtml" />
+    <Content Include="Views\Home\Search.cshtml" />
+    <Content Include="Views\ArtistaMusicas\Create.cshtml" />
+    <Content Include="Views\ArtistaMusicas\Delete.cshtml" />
+    <Content Include="Views\ArtistaMusicas\Details.cshtml" />
+    <Content Include="Views\ArtistaMusicas\Edit.cshtml" />
+    <Content Include="Views\ArtistaMusicas\Index.cshtml" />
+    <Content Include="Views\Bandas\Create.cshtml" />
+    <Content Include="Views\Bandas\Delete.cshtml" />
+    <Content Include="Views\Bandas\Details.cshtml" />
+    <Content Include="Views\Bandas\Edit.cshtml" />
+    <Content Include="Views\Bandas\Index.cshtml" />
+    <Content Include="Views\CompositorMusicas\Create.cshtml" />
+    <Content Include="Views\CompositorMusicas\Delete.cshtml" />
+    <Content Include="Views\CompositorMusicas\Details.cshtml" />
+    <Content Include="Views\CompositorMusicas\Edit.cshtml" />
+    <Content Include="Views\CompositorMusicas\Index.cshtml" />
+    <Content Include="Views\Editoras\Create.cshtml" />
+    <Content Include="Views\Editoras\Delete.cshtml" />
+    <Content Include="Views\Editoras\Details.cshtml" />
+    <Content Include="Views\Editoras\Edit.cshtml" />
+    <Content Include="Views\Editoras\Index.cshtml" />
+    <Content Include="Views\Generoes\Create.cshtml" />
+    <Content Include="Views\Generoes\Delete.cshtml" />
+    <Content Include="Views\Generoes\Details.cshtml" />
+    <Content Include="Views\Generoes\Edit.cshtml" />
+    <Content Include="Views\Generoes\Index.cshtml" />
+    <Content Include="Views\Moods\Create.cshtml" />
+    <Content Include="Views\Moods\Delete.cshtml" />
+    <Content Include="Views\Moods\Details.cshtml" />
+    <Content Include="Views\Moods\Edit.cshtml" />
+    <Content Include="Views\Moods\Index.cshtml" />
+    <Content Include="Views\MusicaGeneroes\Create.cshtml" />
+    <Content Include="Views\MusicaGeneroes\Delete.cshtml" />
+    <Content Include="Views\MusicaGeneroes\Details.cshtml" />
+    <Content Include="Views\MusicaGeneroes\Edit.cshtml" />
+    <Content Include="Views\MusicaGeneroes\Index.cshtml" />
+    <Content Include="Views\MusicaMoods\Create.cshtml" />
+    <Content Include="Views\MusicaMoods\Delete.cshtml" />
+    <Content Include="Views\MusicaMoods\Details.cshtml" />
+    <Content Include="Views\MusicaMoods\Edit.cshtml" />
+    <Content Include="Views\MusicaMoods\Index.cshtml" />
+    <Content Include="Views\Home\Menu.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -356,7 +416,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Artista\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

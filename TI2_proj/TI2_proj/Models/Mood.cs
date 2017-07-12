@@ -16,5 +16,8 @@ namespace TI2_proj.Models
         public string Nome { get; set; }
 
         public virtual ICollection<MusicaMood> Musicas { get; set; }
+
+        public string Dono { get; set; }
+
     }
 }

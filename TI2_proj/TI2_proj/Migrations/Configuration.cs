@@ -112,11 +112,11 @@ namespace TI2_proj.Migrations
             //Mood
             var moods = new List<Mood>
             {
-                new Mood { MoodID=1,Nome="Tristeza"},
-                new Mood { MoodID=2,Nome="Ansiedade"},
-                new Mood { MoodID=3,Nome="Excitação"},
-                new Mood { MoodID=4,Nome="Felicidade"},
-                new Mood { MoodID=5,Nome="Melancolia"}
+                new Mood { MoodID=1,Nome="Sadness"},
+                new Mood { MoodID=2,Nome="Anxiety"},
+                new Mood { MoodID=3,Nome="Exitement"},
+                new Mood { MoodID=4,Nome="Happyness"},
+                new Mood { MoodID=5,Nome="Melancholy"}
             };
 
             moods.ForEach(m => context.Mood.AddOrUpdate(mm => mm.MoodID,m));
@@ -141,7 +141,7 @@ namespace TI2_proj.Migrations
             //Ligar musicas aos seus compositores
             var compositores = new List<CompositorMusica>
             {
-                new CompositorMusica {ComMusID=1, MusicaFK=1,CompositorFK=2},
+                new CompositorMusica {ComMusID=1, MusicaFK=1,CompositorFK=3},
                 new CompositorMusica {ComMusID=2,MusicaFK=1,CompositorFK=7},
                 new CompositorMusica {ComMusID=3,MusicaFK=2,CompositorFK=2},
                 new CompositorMusica {ComMusID=4,MusicaFK=3,CompositorFK=11},
@@ -156,8 +156,8 @@ namespace TI2_proj.Migrations
             //Ligar as musicas aos artistas que as atuam
             var musicaArtista = new List<ArtistaMusica>
             {
-                new ArtistaMusica {ArtMusId=1,ArtistaFK=1,MusicaFK=1 },
-                new ArtistaMusica {ArtMusId=2,ArtistaFK=6,MusicaFK=2 },
+                new ArtistaMusica {ArtMusId=1,ArtistaFK=1,MusicaFK=2 },
+                new ArtistaMusica {ArtMusId=2,ArtistaFK=6,MusicaFK=1 },
                 new ArtistaMusica {ArtMusId=3,ArtistaFK=11,MusicaFK=3 },
                 new ArtistaMusica {ArtMusId=4,ArtistaFK=15,MusicaFK=4 },
                 new ArtistaMusica {ArtMusId=5,ArtistaFK=16,MusicaFK=5 },

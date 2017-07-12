@@ -1,9 +1,19 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace TI2_proj.Models
 {
     public class Artista
     {
+        public Artista()
+        {
+            if (Banda)
+            {
+                Membros = new HashSet<Bandas>();
+                Albuns = new HashSet<Album>();
+            }
+        }
+
         [Key]
         public int ArtistaID { get; set; }
 
@@ -15,5 +25,10 @@ namespace TI2_proj.Models
 
         [Required]
         public bool Banda { get; set; }
+
+        public string Dono { get; set; }
+
+        public ICollection<Bandas> Membros;
+        public ICollection<Album> Albuns;
     }
 }

@@ -1,0 +1,46 @@
+﻿@model IEnumerable<TI2_proj.Models.CompositorMusica>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Compositor.Img)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Musica.Titulo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Dono)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Compositor.Img)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Musica.Titulo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Dono)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ComMusID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ComMusID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ComMusID })
+        </td>
+    </tr>
+}
+
+</table>

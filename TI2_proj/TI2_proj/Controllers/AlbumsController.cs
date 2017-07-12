@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
-using IdentitySample.Models;
 using System.Linq;
 using System.Net;
 using System.Web;
@@ -11,6 +10,7 @@ using TI2_proj.Models;
 
 namespace TI2_proj.Controllers
 {
+    [Authorize]
     public class AlbumsController : Controller
     {
         private MusicasDB db = new MusicasDB();
@@ -18,8 +18,9 @@ namespace TI2_proj.Controllers
         // GET: Albums
         public ActionResult Index()
         {
-            var album = db.Album.Include(a => a.Autor).Include(a => a.Edit);
-            return View(album.ToList());
+            if(User.IsInRole("Admin"))
+                return View(db.Album.Include(a => a.Autor).Include(a => a.Edit).ToList());
+            return View(db.Album.Where(a => a.Dono==User.Identity.Name).Include(a => a.Autor).Include(a => a.Edit).ToList());
         }
 
         // GET: Albums/Details/5
@@ -40,7 +41,7 @@ namespace TI2_proj.Controllers
         // GET: Albums/Create
         public ActionResult Create()
         {
-            ViewBag.AutorFK = new SelectList(db.Artista, "idArtista", "Img");
+            ViewBag.AutorFK = new SelectList(db.Artista, "ArtistaID", "Nome");
             ViewBag.EditFK = new SelectList(db.Editora, "EditoraId", "Nome");
             return View();
         }
@@ -54,12 +55,13 @@ namespace TI2_proj.Controllers
         {
             if (ModelState.IsValid)
             {
+                album.Dono = User.Identity.Name;
                 db.Album.Add(album);
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
 
-            ViewBag.AutorFK = new SelectList(db.Artista, "idArtista", "Img", album.AutorFK);
+            ViewBag.AutorFK = new SelectList(db.Artista, "ArtistaID", "Nome", album.AutorFK);
             ViewBag.EditFK = new SelectList(db.Editora, "EditoraId", "Nome", album.EditFK);
             return View(album);
         }
@@ -76,7 +78,7 @@ namespace TI2_proj.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.AutorFK = new SelectList(db.Artista, "idArtista", "Img", album.AutorFK);
+            ViewBag.AutorFK = new SelectList(db.Artista, "ArtistaID", "Nome", album.AutorFK);
             ViewBag.EditFK = new SelectList(db.Editora, "EditoraId", "Nome", album.EditFK);
             return View(album);
         }
@@ -94,7 +96,7 @@ namespace TI2_proj.Controllers
                 db.SaveChanges();
                 return RedirectToAction("Index");
             }
-            ViewBag.AutorFK = new SelectList(db.Artista, "idArtista", "Img", album.AutorFK);
+            ViewBag.AutorFK = new SelectList(db.Artista, "ArtistaID", "Nome", album.AutorFK);
             ViewBag.EditFK = new SelectList(db.Editora, "EditoraId", "Nome", album.EditFK);
             return View(album);
         }

@@ -10,5 +10,7 @@ namespace TI2_proj.Models
         [Required]
         [StringLength(30)]
         public string Nome { get; set; }
+
+        public string Dono { get; set; }
     }
 }

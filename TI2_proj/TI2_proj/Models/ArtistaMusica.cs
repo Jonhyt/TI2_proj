@@ -19,5 +19,7 @@ namespace TI2_proj.Models
         public Artista Artista { get; set; }
         [ForeignKey("Artista")]
         public int ArtistaFK { get; set; }
+
+        public string Dono { get; set; }
     }
 }

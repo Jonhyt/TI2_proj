@@ -1,0 +1,43 @@
+﻿@model TI2_proj.Models.MusicaMood
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>MusicaMood</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Mood.Nome)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Mood.Nome)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Musica.Titulo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Musica.Titulo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Dono)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Dono)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MusGenID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

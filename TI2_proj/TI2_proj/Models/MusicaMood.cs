@@ -22,5 +22,8 @@ namespace TI2_proj.Models
         [ForeignKey("Mood")]
         public int MoodFK { get; set; }
 
+        public string Dono { get; set; }
+
+
     }
 }
